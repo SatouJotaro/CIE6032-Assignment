@@ -1,0 +1,36 @@
+# 用 cmd 或 PowerShell 直接创建文件
+@"
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Output files (if any)
+results/
+*.png
+*.pdf
+
+# Temporary
+*~
+"@ | Out-File -Encoding utf8 .gitignore
