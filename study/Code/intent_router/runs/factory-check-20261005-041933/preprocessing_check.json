@@ -1,0 +1,26 @@
+{
+  "matched": true,
+  "rows": [
+    {
+      "tokens": 579,
+      "supervised_tokens": 8,
+      "suffix": "\n"
+    },
+    {
+      "tokens": 578,
+      "supervised_tokens": 8,
+      "suffix": "\n"
+    },
+    {
+      "tokens": 577,
+      "supervised_tokens": 8,
+      "suffix": "\n"
+    },
+    {
+      "tokens": 578,
+      "supervised_tokens": 9,
+      "suffix": "\n"
+    }
+  ],
+  "scope": "first four train records through actual Factory loader"
+}

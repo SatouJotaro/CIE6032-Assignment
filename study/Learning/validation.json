@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-05",
+  "entry": "Learning/index.html",
+  "html_bytes": 700604,
+  "lessons": 15,
+  "questions": 45,
+  "derivation_modules": 15,
+  "browser_labs": 17,
+  "source_pdfs": 14,
+  "indexed_pdf_pages": 1169,
+  "desktop_browser_checks": 171,
+  "mobile_browser_checks": 171,
+  "mobile_css_width": 390,
+  "new_actual_cpu_runs": 15,
+  "experiment_report": "Code/runs\\optimizer-20261005-025931\\report.json",
+  "formula_checks": [
+    "affine gradients",
+    "attention Q/K/V gradients",
+    "Gram matrix gradient",
+    "BPTT future-time contribution"
+  ],
+  "checkpoint_next_step_max_error": 0.0,
+  "original_course_files_modified": false,
+  "existing_browser_storage_schema": "unchanged v1",
+  "gpu_rented": false,
+  "budget_planning_only_rmb": [
+    100,
+    200
+  ],
+  "limitations": [
+    "Toy CPU optimizer experiment, not an LLM benchmark",
+    "Full original notebooks not executed",
+    "Not all slides taught in equal depth",
+    "New PyTorch excerpts can require explicitly stated surrounding variables",
+    "Agent baseline must be reproduced and extended by learner before personal-experience claims"
+  ]
+}

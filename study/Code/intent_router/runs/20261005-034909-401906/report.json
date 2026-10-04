@@ -1,0 +1,38 @@
+{
+  "model": "char TF-IDF + LinearSVC",
+  "split": "dev",
+  "test_evaluated": false,
+  "config": {
+    "analyzer": "char",
+    "ngram_range": [
+      1,
+      3
+    ],
+    "min_df": 2,
+    "sublinear_tf": true,
+    "C": 1.0,
+    "random_state": 42,
+    "max_iter": 5000
+  },
+  "python": "3.12.10",
+  "sklearn": "1.9.0",
+  "fit_seconds": 0.562706199940294,
+  "dev_predict_seconds": 0.01897220010869205,
+  "features": 22471,
+  "accuracy": 0.8298081652729956,
+  "macro_f1": 0.8014977232635795,
+  "dev_unseen_text_n": 1889,
+  "dev_unseen_text_accuracy": 0.822657490735839,
+  "dev_unseen_text_macro_f1": 0.7790741651391602,
+  "source_sha256": {
+    "baseline.py": "1b26a8807ca0f6226512112f92aa1869129c1c6926fe3b3076156d91c8c4740c",
+    "evaluate.py": "9f40db57212c24fc06d495555af904a56e6b1d7b1473acf84094fc56f7aa60d8",
+    "prepare.py": "7dc60174dfd8b59a29629fc02764e08247457f9ae4008f9d20129adfcd9aeacc"
+  },
+  "data_sha256": {
+    "train.jsonl": "969d2c7554bd6861585036f4faee407baa6dc7218b5186652dcd0da4214adf19",
+    "dev.jsonl": "956d0e331f177cb17cf2a6b5b5902521cf4f6a658e61f3a701fd1c97f936e4f1",
+    "labels.json": "6810e918307090e1e1a3ef211c9cae23a73c760a6baa5688835c019187eb44ff"
+  },
+  "executed_by": "assistant; user has not yet independently reproduced this run"
+}

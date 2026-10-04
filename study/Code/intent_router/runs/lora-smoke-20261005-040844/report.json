@@ -1,0 +1,36 @@
+{
+  "scope": "two steps, one TRAIN sample; no generalization claim",
+  "model": {
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "local_path": "models/Qwen2.5-0.5B-Instruct"
+  },
+  "torch": "2.11.0+cpu",
+  "transformers": "5.5.4",
+  "peft": "0.19.1",
+  "steps": [
+    {
+      "step": 1,
+      "loss": 0.10056591778993607,
+      "grad_norm_before_clip": 3.153214454650879,
+      "seconds": 5.041220600018278
+    },
+    {
+      "step": 2,
+      "loss": 0.05591157451272011,
+      "grad_norm_before_clip": 1.776650309562683,
+      "seconds": 4.138764400035143
+    }
+  ],
+  "tokens": 578,
+  "supervised_tokens": 7,
+  "trainable_parameters": 540672,
+  "frozen_weights_unchanged": true,
+  "max_adapter_update": 0.00020013569155707955,
+  "reload_loss_difference": 0.0,
+  "final_train_example_loss": 0.03110126592218876,
+  "script_sha256": "40e1c301af9537f183c716668691447b20805ddebf29980669066f119836190b",
+  "sft_manifest_sha256": "ef6c20c0f656ebf2f45d99f005b06074cfb49cb517b0945d9f8173069c9de4ff",
+  "test_used": false,
+  "framework": "standalone PEFT; NOT a LLaMA-Factory validation"
+}

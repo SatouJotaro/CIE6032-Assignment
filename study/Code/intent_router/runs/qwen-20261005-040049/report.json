@@ -1,0 +1,15 @@
+{
+  "scope": "balanced_dev_pilot",
+  "n": 118,
+  "accuracy": 0.2457627118644068,
+  "macro_f1_60_labels": 0.22165343915343916,
+  "json_valid_rate": 0.9830508474576272,
+  "schema_valid_rate": 0.635593220338983,
+  "paired_tfidf_accuracy": 0.7372881355932204,
+  "paired_tfidf_macro_f1": 0.7117460317460317,
+  "paired_tfidf_run": "20261005-034909-401906",
+  "generation_seconds": 199.8909730988089,
+  "test_evaluated": false,
+  "training_performed": false,
+  "note": "Pilot is not full-dev performance. Raw outputs scored without repair. Assistant executed."
+}

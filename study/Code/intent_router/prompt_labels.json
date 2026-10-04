@@ -1,0 +1,21 @@
+{
+  "alarm_query":"查询闹钟", "alarm_remove":"删除闹钟", "alarm_set":"设置闹钟",
+  "audio_volume_down":"降低音量", "audio_volume_mute":"静音", "audio_volume_other":"其他音量设置", "audio_volume_up":"提高音量",
+  "calendar_query":"查询日程", "calendar_remove":"删除日程", "calendar_set":"添加日程或提醒",
+  "cooking_query":"烹饪知识或烹饪时间问题", "cooking_recipe":"寻找菜谱或做法",
+  "datetime_convert":"时区日期时间转换", "datetime_query":"查询日期时间",
+  "email_addcontact":"添加邮件联系人", "email_query":"查询或读取邮件", "email_querycontact":"查询邮件联系人", "email_sendemail":"发送邮件",
+  "general_greet":"问候", "general_joke":"讲笑话", "general_quirky":"闲聊或个性化对话",
+  "iot_cleaning":"控制清洁设备", "iot_coffee":"控制咖啡机",
+  "iot_hue_lightchange":"改变灯光颜色", "iot_hue_lightdim":"调暗灯光", "iot_hue_lightoff":"关灯", "iot_hue_lighton":"开灯", "iot_hue_lightup":"调亮灯光",
+  "iot_wemo_off":"关闭智能插座或电器", "iot_wemo_on":"打开智能插座或电器",
+  "lists_createoradd":"创建清单或添加条目", "lists_query":"查询清单", "lists_remove":"删除清单或条目",
+  "music_dislikeness":"表达不喜欢音乐", "music_likeness":"表达喜欢音乐", "music_query":"查询歌曲或歌手信息", "music_settings":"设置音乐播放模式",
+  "news_query":"查询新闻", "play_audiobook":"播放有声书", "play_game":"玩游戏", "play_music":"播放音乐", "play_podcasts":"播放播客", "play_radio":"播放广播",
+  "qa_currency":"货币汇率或换算", "qa_definition":"词语或概念定义", "qa_factoid":"事实知识问答", "qa_maths":"数学计算", "qa_stock":"股票行情",
+  "recommendation_events":"推荐活动", "recommendation_locations":"推荐地点或餐馆", "recommendation_movies":"推荐电影",
+  "social_post":"发布社交动态", "social_query":"查询社交动态",
+  "takeaway_order":"订外卖", "takeaway_query":"查询外卖商家或订单",
+  "transport_query":"查询交通班次或出行信息", "transport_taxi":"叫出租车", "transport_ticket":"购买交通票", "transport_traffic":"查询路况",
+  "weather_query":"查询天气"
+}

@@ -1,0 +1,6 @@
+{
+  "run": "qwen-20261005-040049",
+  "scope": "balanced_dev_pilot",
+  "n": 118,
+  "full_dev": false
+}

@@ -1,0 +1,592 @@
+[
+  {
+    "id": "11283",
+    "utt": "播放下一集",
+    "intent": "play_podcasts"
+  },
+  {
+    "id": "12095",
+    "utt": "能给我推荐一些朝阳路的酒吧吗",
+    "intent": "recommendation_locations"
+  },
+  {
+    "id": "1988",
+    "utt": "嘿艾利克斯打开我公寓里的迪斯科灯让派对开始",
+    "intent": "iot_hue_lighton"
+  },
+  {
+    "id": "16641",
+    "utt": "有任何来自老板的新电子邮件吗",
+    "intent": "email_query"
+  },
+  {
+    "id": "2420",
+    "utt": "中国日报有什么新的内容吗",
+    "intent": "news_query"
+  },
+  {
+    "id": "12394",
+    "utt": "今天帮我买一张去利兹市的火车票",
+    "intent": "transport_ticket"
+  },
+  {
+    "id": "4619",
+    "utt": "启动新的智能插座",
+    "intent": "iot_wemo_on"
+  },
+  {
+    "id": "14218",
+    "utt": "一英尺等于多少英寸",
+    "intent": "qa_maths"
+  },
+  {
+    "id": "5653",
+    "utt": "小米智能插座",
+    "intent": "iot_wemo_on"
+  },
+  {
+    "id": "12919",
+    "utt": "请在滴滴平台上给我订辆车",
+    "intent": "transport_taxi"
+  },
+  {
+    "id": "11178",
+    "utt": "创建一个每月要买的杂货清单",
+    "intent": "lists_createoradd"
+  },
+  {
+    "id": "8417",
+    "utt": "取消我的所有的约会",
+    "intent": "calendar_remove"
+  },
+  {
+    "id": "2693",
+    "utt": "给我做杯咖啡",
+    "intent": "iot_coffee"
+  },
+  {
+    "id": "11440",
+    "utt": "播放最新的声行漫步",
+    "intent": "play_podcasts"
+  },
+  {
+    "id": "12899",
+    "utt": "为我在三月二十日的火车上预订一个座位",
+    "intent": "transport_ticket"
+  },
+  {
+    "id": "14621",
+    "utt": "美元到欧元的汇率",
+    "intent": "qa_currency"
+  },
+  {
+    "id": "15986",
+    "utt": "在联系人中保存此电子邮件",
+    "intent": "email_addcontact"
+  },
+  {
+    "id": "11876",
+    "utt": "在我的地区发生了什么活动",
+    "intent": "recommendation_events"
+  },
+  {
+    "id": "7747",
+    "utt": "清除我的日历上的所有信息",
+    "intent": "calendar_remove"
+  },
+  {
+    "id": "2112",
+    "utt": "告诉我伦敦的时间",
+    "intent": "datetime_query"
+  },
+  {
+    "id": "14380",
+    "utt": "不完整罪的定义是什么",
+    "intent": "qa_definition"
+  },
+  {
+    "id": "15297",
+    "utt": "当有什么状态更新的时候请通知我",
+    "intent": "social_query"
+  },
+  {
+    "id": "10039",
+    "utt": "给我看看饼干的食谱",
+    "intent": "cooking_recipe"
+  },
+  {
+    "id": "14343",
+    "utt": "说一下京东现在的股价",
+    "intent": "qa_stock"
+  },
+  {
+    "id": "10844",
+    "utt": "从我的杂货清单里删除牛奶",
+    "intent": "lists_remove"
+  },
+  {
+    "id": "14852",
+    "utt": "周迅的自然发色是什么",
+    "intent": "qa_factoid"
+  },
+  {
+    "id": "14827",
+    "utt": "佳能的描述中列出了多少百万像素",
+    "intent": "qa_factoid"
+  },
+  {
+    "id": "1698",
+    "utt": "我不喜欢那首歌关掉它",
+    "intent": "music_dislikeness"
+  },
+  {
+    "id": "439",
+    "utt": "今天我该穿外套",
+    "intent": "weather_query"
+  },
+  {
+    "id": "6932",
+    "utt": "我的明天的事件时间表是什么",
+    "intent": "calendar_query"
+  },
+  {
+    "id": "943",
+    "utt": "如果东部沿海时间是晚上八点浙江省杭州市是几点",
+    "intent": "datetime_convert"
+  },
+  {
+    "id": "2710",
+    "utt": "关闭电流",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "id": "2741",
+    "utt": "我喜欢的餐厅送外卖吗",
+    "intent": "takeaway_query"
+  },
+  {
+    "id": "15252",
+    "utt": "给我显示根据我的亲戚的照片列下的去过的地点",
+    "intent": "social_query"
+  },
+  {
+    "id": "925",
+    "utt": "请把灯光调暗一点",
+    "intent": "iot_hue_lightdim"
+  },
+  {
+    "id": "15921",
+    "utt": "小爱同学将 erosser at hotmail dot com 添加到陈大文的新联系人中",
+    "intent": "email_addcontact"
+  },
+  {
+    "id": "9831",
+    "utt": "开始朗读盗墓笔记第四章",
+    "intent": "play_audiobook"
+  },
+  {
+    "id": "331",
+    "utt": "更柔和",
+    "intent": "audio_volume_down"
+  },
+  {
+    "id": "4156",
+    "utt": "嗨小度给我讲一个笑话",
+    "intent": "general_joke"
+  },
+  {
+    "id": "14267",
+    "utt": "六减四等于多少",
+    "intent": "qa_maths"
+  },
+  {
+    "id": "3183",
+    "utt": "开关机测试",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "id": "2360",
+    "utt": "调大音量",
+    "intent": "audio_volume_up"
+  },
+  {
+    "id": "8272",
+    "utt": "把我即将到来的会议加到我的日程表上",
+    "intent": "calendar_set"
+  },
+  {
+    "id": "15458",
+    "utt": "我有一个糟糕的体验我需要发微博给和府捞面",
+    "intent": "social_post"
+  },
+  {
+    "id": "4519",
+    "utt": "四月二十二号是星期几",
+    "intent": "datetime_query"
+  },
+  {
+    "id": "3956",
+    "utt": "三小时后提醒我",
+    "intent": "alarm_set"
+  },
+  {
+    "id": "237",
+    "utt": "我得定个早上起床的闹钟吗",
+    "intent": "alarm_query"
+  },
+  {
+    "id": "13470",
+    "utt": "你怎么看待机器人学三定律",
+    "intent": "general_quirky"
+  },
+  {
+    "id": "2313",
+    "utt": "灯调低到七档",
+    "intent": "iot_hue_lightdim"
+  },
+  {
+    "id": "4745",
+    "utt": "我想要一个书呆子笑话",
+    "intent": "general_joke"
+  },
+  {
+    "id": "13848",
+    "utt": "告诉我日元的汇率是多少",
+    "intent": "qa_currency"
+  },
+  {
+    "id": "2417",
+    "utt": "随机播放当前歌曲专辑",
+    "intent": "music_settings"
+  },
+  {
+    "id": "4012",
+    "utt": "开始清洁",
+    "intent": "iot_cleaning"
+  },
+  {
+    "id": "4778",
+    "utt": "重播最后一首歌",
+    "intent": "music_settings"
+  },
+  {
+    "id": "16750",
+    "utt": "看我的电子邮件",
+    "intent": "email_query"
+  },
+  {
+    "id": "10295",
+    "utt": "我想从第五关开始玩足球游戏",
+    "intent": "play_game"
+  },
+  {
+    "id": "2259",
+    "utt": "播放飞儿乐队音乐",
+    "intent": "play_music"
+  },
+  {
+    "id": "2946",
+    "utt": "alexa 关掉主卧室的风扇",
+    "intent": "iot_wemo_off"
+  },
+  {
+    "id": "12888",
+    "utt": "给我叫辆出租车周五早上五点半送我去机场",
+    "intent": "transport_taxi"
+  },
+  {
+    "id": "138",
+    "utt": "那是什么歌",
+    "intent": "music_query"
+  },
+  {
+    "id": "16582",
+    "utt": "这是我老板的正确区号吗",
+    "intent": "email_querycontact"
+  },
+  {
+    "id": "4287",
+    "utt": "打开灯",
+    "intent": "iot_hue_lightup"
+  },
+  {
+    "id": "14737",
+    "utt": "好的谷歌一下做火鸡最简单快捷的方法是什么",
+    "intent": "cooking_query"
+  },
+  {
+    "id": "4424",
+    "utt": "这周每天都会下雨吗",
+    "intent": "weather_query"
+  },
+  {
+    "id": "14677",
+    "utt": "给我华为股票的开盘价",
+    "intent": "qa_stock"
+  },
+  {
+    "id": "6135",
+    "utt": "给我这首歌的信息",
+    "intent": "music_query"
+  },
+  {
+    "id": "12253",
+    "utt": "中山路的交通怎么样",
+    "intent": "transport_traffic"
+  },
+  {
+    "id": "9606",
+    "utt": "播放王源在未来",
+    "intent": "play_radio"
+  },
+  {
+    "id": "1211",
+    "utt": "把纽约时间改成伦敦时间",
+    "intent": "datetime_convert"
+  },
+  {
+    "id": "16574",
+    "utt": "新的地址",
+    "intent": "email_sendemail"
+  },
+  {
+    "id": "167",
+    "utt": "嘿嘿",
+    "intent": "general_greet"
+  },
+  {
+    "id": "1179",
+    "utt": "别给我播放任何乡村音乐",
+    "intent": "music_dislikeness"
+  },
+  {
+    "id": "2464",
+    "utt": "olly 关灯",
+    "intent": "iot_hue_lightoff"
+  },
+  {
+    "id": "11596",
+    "utt": "北京市附近有狗展吗",
+    "intent": "recommendation_events"
+  },
+  {
+    "id": "5667",
+    "utt": "点击开始然后选择设置",
+    "intent": "alarm_query"
+  },
+  {
+    "id": "3704",
+    "utt": "从兰州拉面点两个大份炒面加鸡肉",
+    "intent": "takeaway_order"
+  },
+  {
+    "id": "2625",
+    "utt": "新供应商那边有任何进展吗",
+    "intent": "news_query"
+  },
+  {
+    "id": "2120",
+    "utt": "把灯调成蓝色",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "id": "11615",
+    "utt": "环球影院正在上映什么电影",
+    "intent": "recommendation_movies"
+  },
+  {
+    "id": "4497",
+    "utt": "静音设置",
+    "intent": "audio_volume_mute"
+  },
+  {
+    "id": "10605",
+    "utt": "清单上有多少食品",
+    "intent": "lists_query"
+  },
+  {
+    "id": "1277",
+    "utt": "你好",
+    "intent": "general_greet"
+  },
+  {
+    "id": "8622",
+    "utt": "把下面的日期和时间添加到我的日历中",
+    "intent": "calendar_set"
+  },
+  {
+    "id": "806",
+    "utt": "请降低音箱的音量",
+    "intent": "audio_volume_down"
+  },
+  {
+    "id": "6131",
+    "utt": "从我的最近播放列表播放任何内容",
+    "intent": "play_music"
+  },
+  {
+    "id": "14865",
+    "utt": "为我定义月球",
+    "intent": "qa_definition"
+  },
+  {
+    "id": "12533",
+    "utt": "地方",
+    "intent": "transport_query"
+  },
+  {
+    "id": "4317",
+    "utt": "定个闹钟明天早上十点整",
+    "intent": "alarm_set"
+  },
+  {
+    "id": "15381",
+    "utt": "给中国电信发推文告诉他们我的应用程序崩溃了",
+    "intent": "social_post"
+  },
+  {
+    "id": "6009",
+    "utt": "我什么时候可以去取我的中餐",
+    "intent": "takeaway_query"
+  },
+  {
+    "id": "9849",
+    "utt": "有声读物播放十面埋伏",
+    "intent": "play_audiobook"
+  },
+  {
+    "id": "10626",
+    "utt": "创建一个新的清单",
+    "intent": "lists_createoradd"
+  },
+  {
+    "id": "12439",
+    "utt": "从纽约市到波基普西怎么走",
+    "intent": "transport_query"
+  },
+  {
+    "id": "5990",
+    "utt": "准备我早晨的咖啡",
+    "intent": "iot_coffee"
+  },
+  {
+    "id": "1416",
+    "utt": "点一些外卖食物",
+    "intent": "takeaway_order"
+  },
+  {
+    "id": "16135",
+    "utt": "发电子邮件给李雷告诉他我会在第二天发送文件",
+    "intent": "email_sendemail"
+  },
+  {
+    "id": "11851",
+    "utt": "我附近有什么正上映的高分电影吗",
+    "intent": "recommendation_movies"
+  },
+  {
+    "id": "2955",
+    "utt": "我爱嘻哈音乐",
+    "intent": "music_likeness"
+  },
+  {
+    "id": "9934",
+    "utt": "我可以用西蓝花和鸡肉做什么",
+    "intent": "cooking_recipe"
+  },
+  {
+    "id": "5436",
+    "utt": "去除下午五点的闹钟",
+    "intent": "alarm_remove"
+  },
+  {
+    "id": "7066",
+    "utt": "我的日程表上的活动是什么",
+    "intent": "calendar_query"
+  },
+  {
+    "id": "12045",
+    "utt": "欧丽在上海我能到哪个酒馆喝两杯",
+    "intent": "recommendation_locations"
+  },
+  {
+    "id": "2834",
+    "utt": "请吸尘一小时",
+    "intent": "iot_cleaning"
+  },
+  {
+    "id": "5516",
+    "utt": "将这首音乐收进收藏夹",
+    "intent": "music_likeness"
+  },
+  {
+    "id": "13367",
+    "utt": "定义单词时调出词库并给出例句让单词意思更加清晰",
+    "intent": "general_quirky"
+  },
+  {
+    "id": "10967",
+    "utt": "现在有什么清单可用呢",
+    "intent": "lists_query"
+  },
+  {
+    "id": "6613",
+    "utt": "烹饪",
+    "intent": "cooking_query"
+  },
+  {
+    "id": "5726",
+    "utt": "你能大声点吗",
+    "intent": "audio_volume_up"
+  },
+  {
+    "id": "2622",
+    "utt": "现在静音所有响应",
+    "intent": "audio_volume_mute"
+  },
+  {
+    "id": "9432",
+    "utt": "我的体育播客中有多少有我还没有听过的新剧集",
+    "intent": "play_radio"
+  },
+  {
+    "id": "10589",
+    "utt": "在清单里删除数据表格",
+    "intent": "lists_remove"
+  },
+  {
+    "id": "2863",
+    "utt": "将灯的颜色更改为蓝色",
+    "intent": "iot_hue_lightchange"
+  },
+  {
+    "id": "3270",
+    "utt": "移除设好的明天的闹钟",
+    "intent": "alarm_remove"
+  },
+  {
+    "id": "312",
+    "utt": "这里太黑了",
+    "intent": "iot_hue_lighton"
+  },
+  {
+    "id": "10303",
+    "utt": "寻找游戏",
+    "intent": "play_game"
+  },
+  {
+    "id": "4573",
+    "utt": "请把这儿的灯打开",
+    "intent": "iot_hue_lightup"
+  },
+  {
+    "id": "16244",
+    "utt": "鲍勃住在法国",
+    "intent": "email_querycontact"
+  },
+  {
+    "id": "12729",
+    "utt": "有交通问题吗",
+    "intent": "transport_traffic"
+  }
+]

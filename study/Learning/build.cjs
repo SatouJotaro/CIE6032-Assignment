@@ -1,0 +1,22 @@
+const fs=require('node:fs');
+const path=require('node:path');
+const vm=require('node:vm');
+const dir=__dirname;
+const read=n=>fs.readFileSync(path.join(dir,n),'utf8');
+const course=read('course.js')+'\n'+read('depth.js');
+const lessons=vm.runInNewContext(course+'; COURSE');
+const pages=JSON.parse(read('source_index.json')).map(d=>({path:d.path,pages:d.pages.map(p=>({page:p.page,title:p.text.split(/\r?\n/).map(s=>s.trim()).filter(Boolean).slice(0,2).join(' / ').slice(0,130)}))}));
+const latestPath=path.join(dir,'../Code/runs/latest.json');
+const latest=fs.existsSync(latestPath)?JSON.parse(fs.readFileSync(latestPath,'utf8')):null;
+const experiment=latest?JSON.parse(fs.readFileSync(path.join(dir,'../Code',latest.report),'utf8')):null;
+const embedded='const SOURCE_PAGES='+JSON.stringify(pages)+';\nconst EXPERIMENT='+JSON.stringify(experiment)+';\nconst EXPERIMENT_PATH='+JSON.stringify(latest?.report||'')+';\n';
+let html=read('shell.html').replace('/*__CSS__*/',()=>read('style.css')).replace('/*__COURSE__*/',()=>course).replace('/*__APP__*/',()=>embedded+read('extension.js')+'\n'+read('app.js'));
+fs.writeFileSync(path.join(dir,'index.html'),html,'utf8');
+const intro='# CIE6032 深度学习课程\n\n学习目标：基于本地课程资料，把原理、推导、代码与实验验证串起来。\n\n前置：Python、线性代数及基本导数。材料快照日期：2026-10-04。当前目录不是有版本标记的课程源码发行版；课程原文件未更改。新增教学脚本在 labs 中，覆盖 15 个模块，所有模块已展开。\n\n范围：基础训练、MLP/CNN、架构与优化、RNN/Transformer/ViT、GAN/diffusion、检测与分割、图像梯度和实验设计。不是逐页复述所有课件；高级生成模型实现、完整预训练、具体大型分割模型适配与 RAFLCC 算法细节留作拓展，不宣称已核验运行。\n\n入口：[HTML 学习站](index.html)。可直接双击，无外部脚本依赖。\n\n';
+fs.writeFileSync(path.join(dir,'tutorial.md'),intro+lessons.map(l=>`## ${l.id} ${l.title}（已展开）\n\n目标：${l.goal}\n\n前置：${l.prereq}\n\n主链：${l.chain.join(' → ')}\n\n${l.concepts.map(c=>`### ${c.title}\n\n${c.body}\n`).join('\n')}\n公式：\n\n\`\`\`text\n${l.formula}\n\`\`\`\n\n例子：${l.worked}\n\n误区：${l.pitfall}\n\n实践阅读与验证顺序：\n\n${l.practice.map((p,i)=>`${i+1}. ${p}`).join('\n')}\n\n材料：\n\n${l.refs.map(r=>`- [${r.label}](<../${r.path}>)`).join('\n')}\n\n完成后自行复述本课主链；相邻主题按 HTML 中的上一课/下一课继续。真实训练指标需自行运行实验，本站不为未执行 Notebook 编造结果。\n`).join('\n'),'utf8');
+fs.writeFileSync(path.join(dir,'practice.md'),'# CIE6032 配套练习\n\n与 tutorial.md 的 15 个已展开模块对应。这里保留问题；HTML 可提交自测并查看反馈。\n\n'+lessons.map(l=>`## ${l.id} ${l.title}\n\n${l.quiz.map((q,i)=>`${i+1}. ${q.prompt}\n${q.options.map((o,j)=>`   - ${'ABC'[j]}. ${o}`).join('\n')}`).join('\n\n')}\n\n独立完成标准：\n\n${l.accept.map(a=>'- '+a).join('\n')}\n`).join('\n'),'utf8');
+const missing=[];
+fs.writeFileSync(path.join(dir,'derivations.md'),'# 分步推导与 PyTorch\n\n'+lessons.map(l=>`## ${l.id} ${l.depth.title}\n\n约定：${l.depth.assumption}\n\n${l.depth.steps.map(([t,b],i)=>`${i+1}. **${t}**：${b}`).join('\n\n')}\n\nPyTorch：${l.depth.torch}\n\n\`\`\`python\n${l.depth.code}\n\`\`\`\n\n验证：${l.depth.verify}\n`).join('\n'),'utf8');
+for(const l of lessons){for(const r of l.refs)if(!fs.existsSync(path.resolve(dir,'..',r.path)))missing.push(r.path);if(l.download&&!fs.existsSync(path.join(dir,l.download)))missing.push(l.download);}
+if(missing.length)throw Error('Missing resources: '+missing.join(', '));
+console.log(`Built standalone index.html: ${Buffer.byteLength(html)} bytes, ${lessons.length} lessons, ${lessons.reduce((n,l)=>n+l.quiz.length,0)} questions. All lesson resource paths exist.`);

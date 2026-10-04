@@ -1,0 +1,571 @@
+{
+  "n": 118,
+  "accuracy": 0.7372881355932204,
+  "macro_f1": 0.7117460317460317,
+  "json_valid_rate": 1.0,
+  "schema_valid_rate": 1.0,
+  "invalid_count": 0,
+  "per_class": {
+    "alarm_query": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "alarm_remove": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "alarm_set": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1-score": 0.4,
+      "support": 2.0
+    },
+    "audio_volume_down": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "audio_volume_mute": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "audio_volume_other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "audio_volume_up": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "calendar_query": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "calendar_remove": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "calendar_set": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "cooking_query": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "cooking_recipe": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1-score": 0.4,
+      "support": 2.0
+    },
+    "datetime_convert": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "datetime_query": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "email_addcontact": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "email_query": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "email_querycontact": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "email_sendemail": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "general_greet": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "general_joke": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "general_quirky": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1-score": 0.4,
+      "support": 2.0
+    },
+    "iot_cleaning": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "iot_coffee": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "iot_hue_lightchange": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "iot_hue_lightdim": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "iot_hue_lightoff": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "iot_hue_lighton": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "iot_hue_lightup": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "iot_wemo_off": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "iot_wemo_on": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "lists_createoradd": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "lists_query": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "lists_remove": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "music_dislikeness": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "music_likeness": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "music_query": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "music_settings": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "news_query": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "play_audiobook": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "play_game": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "play_music": {
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1-score": 0.4,
+      "support": 2.0
+    },
+    "play_podcasts": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "play_radio": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "qa_currency": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "qa_definition": {
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1-score": 0.5714285714285714,
+      "support": 2.0
+    },
+    "qa_factoid": {
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1-score": 0.3333333333333333,
+      "support": 2.0
+    },
+    "qa_maths": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "qa_stock": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "recommendation_events": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "recommendation_locations": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "recommendation_movies": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "social_post": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "social_query": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "takeaway_order": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "takeaway_query": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "transport_query": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "transport_taxi": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "transport_ticket": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "transport_traffic": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "weather_query": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "accuracy": 0.7372881355932204,
+    "macro avg": {
+      "precision": 0.751111111111111,
+      "recall": 0.725,
+      "f1-score": 0.7117460317460317,
+      "support": 118.0
+    },
+    "weighted avg": {
+      "precision": 0.7638418079096043,
+      "recall": 0.7372881355932204,
+      "f1-score": 0.7238095238095238,
+      "support": 118.0
+    }
+  },
+  "errors": [
+    {
+      "id": "1988",
+      "text": "嘿艾利克斯打开我公寓里的迪斯科灯让派对开始",
+      "gold": "iot_hue_lighton",
+      "predicted": "play_music"
+    },
+    {
+      "id": "2420",
+      "text": "中国日报有什么新的内容吗",
+      "gold": "news_query",
+      "predicted": "social_query"
+    },
+    {
+      "id": "14218",
+      "text": "一英尺等于多少英寸",
+      "gold": "qa_maths",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "11440",
+      "text": "播放最新的声行漫步",
+      "gold": "play_podcasts",
+      "predicted": "play_music"
+    },
+    {
+      "id": "15297",
+      "text": "当有什么状态更新的时候请通知我",
+      "gold": "social_query",
+      "predicted": "email_query"
+    },
+    {
+      "id": "14827",
+      "text": "佳能的描述中列出了多少百万像素",
+      "gold": "qa_factoid",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "2710",
+      "text": "关闭电流",
+      "gold": "iot_hue_lightoff",
+      "predicted": "iot_wemo_off"
+    },
+    {
+      "id": "15252",
+      "text": "给我显示根据我的亲戚的照片列下的去过的地点",
+      "gold": "social_query",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "331",
+      "text": "更柔和",
+      "gold": "audio_volume_down",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "3183",
+      "text": "开关机测试",
+      "gold": "iot_wemo_off",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "3956",
+      "text": "三小时后提醒我",
+      "gold": "alarm_set",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "237",
+      "text": "我得定个早上起床的闹钟吗",
+      "gold": "alarm_query",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "4778",
+      "text": "重播最后一首歌",
+      "gold": "music_settings",
+      "predicted": "play_music"
+    },
+    {
+      "id": "2946",
+      "text": "alexa 关掉主卧室的风扇",
+      "gold": "iot_wemo_off",
+      "predicted": "iot_hue_lightoff"
+    },
+    {
+      "id": "16582",
+      "text": "这是我老板的正确区号吗",
+      "gold": "email_querycontact",
+      "predicted": "music_likeness"
+    },
+    {
+      "id": "4287",
+      "text": "打开灯",
+      "gold": "iot_hue_lightup",
+      "predicted": "iot_hue_lighton"
+    },
+    {
+      "id": "14737",
+      "text": "好的谷歌一下做火鸡最简单快捷的方法是什么",
+      "gold": "cooking_query",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "9606",
+      "text": "播放王源在未来",
+      "gold": "play_radio",
+      "predicted": "play_music"
+    },
+    {
+      "id": "1211",
+      "text": "把纽约时间改成伦敦时间",
+      "gold": "datetime_convert",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "16574",
+      "text": "新的地址",
+      "gold": "email_sendemail",
+      "predicted": "email_querycontact"
+    },
+    {
+      "id": "167",
+      "text": "嘿嘿",
+      "gold": "general_greet",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "1179",
+      "text": "别给我播放任何乡村音乐",
+      "gold": "music_dislikeness",
+      "predicted": "play_music"
+    },
+    {
+      "id": "5667",
+      "text": "点击开始然后选择设置",
+      "gold": "alarm_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "12533",
+      "text": "地方",
+      "gold": "transport_query",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "2955",
+      "text": "我爱嘻哈音乐",
+      "gold": "music_likeness",
+      "predicted": "play_music"
+    },
+    {
+      "id": "9934",
+      "text": "我可以用西蓝花和鸡肉做什么",
+      "gold": "cooking_recipe",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "5436",
+      "text": "去除下午五点的闹钟",
+      "gold": "alarm_remove",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "13367",
+      "text": "定义单词时调出词库并给出例句让单词意思更加清晰",
+      "gold": "general_quirky",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "6613",
+      "text": "烹饪",
+      "gold": "cooking_query",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "9432",
+      "text": "我的体育播客中有多少有我还没有听过的新剧集",
+      "gold": "play_radio",
+      "predicted": "play_podcasts"
+    },
+    {
+      "id": "16244",
+      "text": "鲍勃住在法国",
+      "gold": "email_querycontact",
+      "predicted": "qa_factoid"
+    }
+  ]
+}

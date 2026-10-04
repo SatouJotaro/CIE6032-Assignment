@@ -1,0 +1,23 @@
+{
+  "model": {
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "local_path": "models/Qwen2.5-0.5B-Instruct"
+  },
+  "per_class": 2,
+  "limit": 3,
+  "threads": 6,
+  "max_new_tokens": 40,
+  "do_sample": false,
+  "dtype": "float32",
+  "torch": "2.11.0+cpu",
+  "transformers": "5.5.4",
+  "prompt_sha256": "fa13e813ba589ccc559bee0c33f8c9432571ee74c288b96c659c945c6bf5162f",
+  "script_sha256": "a8b597a04abe7cf2e4a412ba02ae3f5effdca649a3e4b4e832ce4df897811b24",
+  "dev_sha256": "956d0e331f177cb17cf2a6b5b5902521cf4f6a658e61f3a701fd1c97f936e4f1",
+  "ids": [
+    "11283",
+    "12095",
+    "1988"
+  ]
+}

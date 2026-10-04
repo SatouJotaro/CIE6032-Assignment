@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "versions": {
+    "llamafactory": "0.9.4",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "datasets": "4.0.0",
+    "accelerate": "1.11.0",
+    "torch": "2.14.1",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "0.36.2"
+  },
+  "training_metrics": {
+    "epoch": 0.5,
+    "train_loss": 0.03948505129665136,
+    "train_runtime": 11.4144,
+    "train_samples_per_second": 0.175,
+    "train_steps_per_second": 0.175
+  },
+  "preprocessing_checked": 4,
+  "optimizer_steps": 2,
+  "base_config_sha256": "001253751da90e4f4d339707fc0dd1794a9fecb655e23090d0e830d1a1326240",
+  "script_sha256": "4320220685967796e28d545c56d6cbda8fc614f4fdd22b63c867bc3562c6d77b",
+  "scope": "CPU integration check only, not full training or GPU performance",
+  "test_used": false
+}

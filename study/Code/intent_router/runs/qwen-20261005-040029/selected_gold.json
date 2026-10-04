@@ -1,0 +1,17 @@
+[
+  {
+    "id": "11283",
+    "utt": "播放下一集",
+    "intent": "play_podcasts"
+  },
+  {
+    "id": "12095",
+    "utt": "能给我推荐一些朝阳路的酒吧吗",
+    "intent": "recommendation_locations"
+  },
+  {
+    "id": "1988",
+    "utt": "嘿艾利克斯打开我公寓里的迪斯科灯让派对开始",
+    "intent": "iot_hue_lighton"
+  }
+]

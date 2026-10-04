@@ -1,0 +1,2 @@
+# Preserve exact bytes across Windows/Linux: experiment manifests contain SHA-256.
+* -text

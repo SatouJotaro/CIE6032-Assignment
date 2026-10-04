@@ -1,0 +1,2395 @@
+{
+  "n": 1889,
+  "accuracy": 0.822657490735839,
+  "macro_f1": 0.7790741651391602,
+  "json_valid_rate": 1.0,
+  "schema_valid_rate": 1.0,
+  "invalid_count": 0,
+  "per_class": {
+    "alarm_query": {
+      "precision": 0.8461538461538461,
+      "recall": 0.6111111111111112,
+      "f1-score": 0.7096774193548387,
+      "support": 18.0
+    },
+    "alarm_remove": {
+      "precision": 1.0,
+      "recall": 0.8461538461538461,
+      "f1-score": 0.9166666666666666,
+      "support": 13.0
+    },
+    "alarm_set": {
+      "precision": 0.7741935483870968,
+      "recall": 0.8275862068965517,
+      "f1-score": 0.8,
+      "support": 29.0
+    },
+    "audio_volume_down": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 6.0
+    },
+    "audio_volume_mute": {
+      "precision": 0.9230769230769231,
+      "recall": 0.9230769230769231,
+      "f1-score": 0.9230769230769231,
+      "support": 13.0
+    },
+    "audio_volume_other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "audio_volume_up": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 6.0
+    },
+    "calendar_query": {
+      "precision": 0.776595744680851,
+      "recall": 0.7373737373737373,
+      "f1-score": 0.7564766839378239,
+      "support": 99.0
+    },
+    "calendar_remove": {
+      "precision": 0.875,
+      "recall": 0.8936170212765957,
+      "f1-score": 0.8842105263157894,
+      "support": 47.0
+    },
+    "calendar_set": {
+      "precision": 0.8142857142857143,
+      "recall": 0.8837209302325582,
+      "f1-score": 0.8475836431226765,
+      "support": 129.0
+    },
+    "cooking_query": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "cooking_recipe": {
+      "precision": 0.717391304347826,
+      "recall": 0.8461538461538461,
+      "f1-score": 0.7764705882352941,
+      "support": 39.0
+    },
+    "datetime_convert": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 9.0
+    },
+    "datetime_query": {
+      "precision": 0.8703703703703703,
+      "recall": 0.9038461538461539,
+      "f1-score": 0.8867924528301887,
+      "support": 52.0
+    },
+    "email_addcontact": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 5.0
+    },
+    "email_query": {
+      "precision": 0.9027777777777778,
+      "recall": 0.9154929577464789,
+      "f1-score": 0.9090909090909091,
+      "support": 71.0
+    },
+    "email_querycontact": {
+      "precision": 0.65,
+      "recall": 0.8125,
+      "f1-score": 0.7222222222222222,
+      "support": 16.0
+    },
+    "email_sendemail": {
+      "precision": 0.9444444444444444,
+      "recall": 0.8360655737704918,
+      "f1-score": 0.8869565217391304,
+      "support": 61.0
+    },
+    "general_greet": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "general_joke": {
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9565217391304348,
+      "support": 12.0
+    },
+    "general_quirky": {
+      "precision": 0.5365853658536586,
+      "recall": 0.43137254901960786,
+      "f1-score": 0.4782608695652174,
+      "support": 102.0
+    },
+    "iot_cleaning": {
+      "precision": 0.9230769230769231,
+      "recall": 1.0,
+      "f1-score": 0.96,
+      "support": 12.0
+    },
+    "iot_coffee": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "iot_hue_lightchange": {
+      "precision": 0.9047619047619048,
+      "recall": 0.9047619047619048,
+      "f1-score": 0.9047619047619048,
+      "support": 21.0
+    },
+    "iot_hue_lightdim": {
+      "precision": 0.9090909090909091,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.8,
+      "support": 14.0
+    },
+    "iot_hue_lightoff": {
+      "precision": 0.75,
+      "recall": 0.9,
+      "f1-score": 0.8181818181818182,
+      "support": 10.0
+    },
+    "iot_hue_lighton": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "iot_hue_lightup": {
+      "precision": 0.8461538461538461,
+      "recall": 1.0,
+      "f1-score": 0.9166666666666666,
+      "support": 11.0
+    },
+    "iot_wemo_off": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1-score": 0.5714285714285714,
+      "support": 4.0
+    },
+    "iot_wemo_on": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "lists_createoradd": {
+      "precision": 0.75,
+      "recall": 0.8181818181818182,
+      "f1-score": 0.782608695652174,
+      "support": 22.0
+    },
+    "lists_query": {
+      "precision": 0.925,
+      "recall": 0.7708333333333334,
+      "f1-score": 0.8409090909090909,
+      "support": 48.0
+    },
+    "lists_remove": {
+      "precision": 0.8857142857142857,
+      "recall": 0.8857142857142857,
+      "f1-score": 0.8857142857142857,
+      "support": 35.0
+    },
+    "music_dislikeness": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "music_likeness": {
+      "precision": 0.7333333333333333,
+      "recall": 0.6875,
+      "f1-score": 0.7096774193548387,
+      "support": 16.0
+    },
+    "music_query": {
+      "precision": 0.8,
+      "recall": 0.7407407407407407,
+      "f1-score": 0.7692307692307693,
+      "support": 27.0
+    },
+    "music_settings": {
+      "precision": 0.5,
+      "recall": 0.42857142857142855,
+      "f1-score": 0.46153846153846156,
+      "support": 7.0
+    },
+    "news_query": {
+      "precision": 0.7553191489361702,
+      "recall": 0.8765432098765432,
+      "f1-score": 0.8114285714285714,
+      "support": 81.0
+    },
+    "play_audiobook": {
+      "precision": 0.9696969696969697,
+      "recall": 0.9142857142857143,
+      "f1-score": 0.9411764705882353,
+      "support": 35.0
+    },
+    "play_game": {
+      "precision": 0.8260869565217391,
+      "recall": 0.9047619047619048,
+      "f1-score": 0.8636363636363636,
+      "support": 21.0
+    },
+    "play_music": {
+      "precision": 0.8145161290322581,
+      "recall": 0.9017857142857143,
+      "f1-score": 0.8559322033898306,
+      "support": 112.0
+    },
+    "play_podcasts": {
+      "precision": 0.88,
+      "recall": 0.7586206896551724,
+      "f1-score": 0.8148148148148148,
+      "support": 29.0
+    },
+    "play_radio": {
+      "precision": 0.918918918918919,
+      "recall": 0.85,
+      "f1-score": 0.8831168831168831,
+      "support": 40.0
+    },
+    "qa_currency": {
+      "precision": 0.9393939393939394,
+      "recall": 1.0,
+      "f1-score": 0.96875,
+      "support": 31.0
+    },
+    "qa_definition": {
+      "precision": 0.7931034482758621,
+      "recall": 0.8518518518518519,
+      "f1-score": 0.8214285714285714,
+      "support": 54.0
+    },
+    "qa_factoid": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6896551724137931,
+      "f1-score": 0.6779661016949152,
+      "support": 87.0
+    },
+    "qa_maths": {
+      "precision": 0.5833333333333334,
+      "recall": 0.6363636363636364,
+      "f1-score": 0.6086956521739131,
+      "support": 11.0
+    },
+    "qa_stock": {
+      "precision": 1.0,
+      "recall": 0.8695652173913043,
+      "f1-score": 0.9302325581395349,
+      "support": 23.0
+    },
+    "recommendation_events": {
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1-score": 0.6666666666666666,
+      "support": 25.0
+    },
+    "recommendation_locations": {
+      "precision": 0.7777777777777778,
+      "recall": 0.9032258064516129,
+      "f1-score": 0.835820895522388,
+      "support": 31.0
+    },
+    "recommendation_movies": {
+      "precision": 0.7333333333333333,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.8148148148148148,
+      "support": 12.0
+    },
+    "social_post": {
+      "precision": 0.9130434782608695,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8842105263157894,
+      "support": 49.0
+    },
+    "social_query": {
+      "precision": 0.7058823529411765,
+      "recall": 0.7058823529411765,
+      "f1-score": 0.7058823529411765,
+      "support": 17.0
+    },
+    "takeaway_order": {
+      "precision": 0.7619047619047619,
+      "recall": 0.9411764705882353,
+      "f1-score": 0.8421052631578947,
+      "support": 17.0
+    },
+    "takeaway_query": {
+      "precision": 0.9473684210526315,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.9,
+      "support": 21.0
+    },
+    "transport_query": {
+      "precision": 0.8181818181818182,
+      "recall": 0.7941176470588235,
+      "f1-score": 0.8059701492537313,
+      "support": 34.0
+    },
+    "transport_taxi": {
+      "precision": 0.9629629629629629,
+      "recall": 1.0,
+      "f1-score": 0.9811320754716981,
+      "support": 26.0
+    },
+    "transport_ticket": {
+      "precision": 0.9130434782608695,
+      "recall": 0.875,
+      "f1-score": 0.8936170212765957,
+      "support": 24.0
+    },
+    "transport_traffic": {
+      "precision": 0.95,
+      "recall": 0.9047619047619048,
+      "f1-score": 0.926829268292683,
+      "support": 21.0
+    },
+    "weather_query": {
+      "precision": 0.9067796610169492,
+      "recall": 0.9469026548672567,
+      "f1-score": 0.9264069264069265,
+      "support": 113.0
+    },
+    "accuracy": 0.822657490735839,
+    "macro avg": {
+      "precision": 0.8029775521885341,
+      "recall": 0.7715129846236803,
+      "f1-score": 0.7790741651391602,
+      "support": 1889.0
+    },
+    "weighted avg": {
+      "precision": 0.8230583145686302,
+      "recall": 0.822657490735839,
+      "f1-score": 0.8198060232077032,
+      "support": 1889.0
+    }
+  },
+  "errors": [
+    {
+      "id": "24",
+      "text": "让房间更暗",
+      "gold": "iot_hue_lightdim",
+      "predicted": "iot_hue_lightup"
+    },
+    {
+      "id": "90",
+      "text": "我的晚餐要点什么",
+      "gold": "takeaway_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "113",
+      "text": "循环播放这首曲目",
+      "gold": "music_settings",
+      "predicted": "play_music"
+    },
+    {
+      "id": "115",
+      "text": "将音量设置为低",
+      "gold": "audio_volume_down",
+      "predicted": "audio_volume_other"
+    },
+    {
+      "id": "147",
+      "text": "我喜欢听爵士乐",
+      "gold": "play_music",
+      "predicted": "music_likeness"
+    },
+    {
+      "id": "167",
+      "text": "嘿嘿",
+      "gold": "general_greet",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "237",
+      "text": "我得定个早上起床的闹钟吗",
+      "gold": "alarm_query",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "331",
+      "text": "更柔和",
+      "gold": "audio_volume_down",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "365",
+      "text": "今天周一吧",
+      "gold": "datetime_query",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "415",
+      "text": "转换我的房间的灯光好睡觉",
+      "gold": "iot_hue_lightchange",
+      "predicted": "iot_hue_lightoff"
+    },
+    {
+      "id": "511",
+      "text": "合适的配方",
+      "gold": "weather_query",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "523",
+      "text": "很危险的咧",
+      "gold": "weather_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "601",
+      "text": "闹钟开启",
+      "gold": "alarm_set",
+      "predicted": "alarm_query"
+    },
+    {
+      "id": "626",
+      "text": "野兽的数目是六百六十六",
+      "gold": "play_music",
+      "predicted": "qa_maths"
+    },
+    {
+      "id": "676",
+      "text": "设定时间区域",
+      "gold": "datetime_convert",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "708",
+      "text": "现在谁在一级方程式比赛中领先",
+      "gold": "news_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "778",
+      "text": "播放汪苏泷的剑魂",
+      "gold": "play_music",
+      "predicted": "play_radio"
+    },
+    {
+      "id": "937",
+      "text": "电话",
+      "gold": "alarm_remove",
+      "predicted": "email_querycontact"
+    },
+    {
+      "id": "1012",
+      "text": "带我去光明日报的网站",
+      "gold": "social_post",
+      "predicted": "news_query"
+    },
+    {
+      "id": "1023",
+      "text": "赛百味外带",
+      "gold": "takeaway_query",
+      "predicted": "takeaway_order"
+    },
+    {
+      "id": "1085",
+      "text": "谷歌助手",
+      "gold": "news_query",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "1179",
+      "text": "别给我播放任何乡村音乐",
+      "gold": "music_dislikeness",
+      "predicted": "play_music"
+    },
+    {
+      "id": "1210",
+      "text": "从一家不错的餐厅定一个餐",
+      "gold": "takeaway_order",
+      "predicted": "recommendation_locations"
+    },
+    {
+      "id": "1211",
+      "text": "把纽约时间改成伦敦时间",
+      "gold": "datetime_convert",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "1234",
+      "text": "当美国时间是中午十二点印度是几点",
+      "gold": "datetime_convert",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "1346",
+      "text": "十万两百十七",
+      "gold": "datetime_query",
+      "predicted": "qa_maths"
+    },
+    {
+      "id": "1468",
+      "text": "打开音乐",
+      "gold": "play_music",
+      "predicted": "audio_volume_up"
+    },
+    {
+      "id": "1621",
+      "text": "评分",
+      "gold": "music_likeness",
+      "predicted": "takeaway_query"
+    },
+    {
+      "id": "1625",
+      "text": "上午或下午",
+      "gold": "alarm_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "1732",
+      "text": "检查设置为今天早上十点的闹钟",
+      "gold": "alarm_query",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "1791",
+      "text": "我的音乐",
+      "gold": "music_query",
+      "predicted": "play_music"
+    },
+    {
+      "id": "1823",
+      "text": "我最喜欢的歌手是飞轮海",
+      "gold": "music_likeness",
+      "predicted": "music_query"
+    },
+    {
+      "id": "1914",
+      "text": "五点提醒我",
+      "gold": "alarm_set",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "1988",
+      "text": "嘿艾利克斯打开我公寓里的迪斯科灯让派对开始",
+      "gold": "iot_hue_lighton",
+      "predicted": "play_music"
+    },
+    {
+      "id": "2042",
+      "text": "会议安排在明天吗",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "2118",
+      "text": "请营造气氛",
+      "gold": "iot_hue_lightchange",
+      "predicted": "play_music"
+    },
+    {
+      "id": "2200",
+      "text": "距离圣诞还有多少周",
+      "gold": "datetime_query",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "2303",
+      "text": "我永远都是嘻哈",
+      "gold": "music_likeness",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "2312",
+      "text": "olly 把灯调到七档",
+      "gold": "iot_hue_lightdim",
+      "predicted": "iot_hue_lightchange"
+    },
+    {
+      "id": "2318",
+      "text": "光能量",
+      "gold": "iot_hue_lightdim",
+      "predicted": "iot_hue_lightup"
+    },
+    {
+      "id": "2420",
+      "text": "中国日报有什么新的内容吗",
+      "gold": "news_query",
+      "predicted": "social_query"
+    },
+    {
+      "id": "2710",
+      "text": "关闭电流",
+      "gold": "iot_hue_lightoff",
+      "predicted": "iot_wemo_off"
+    },
+    {
+      "id": "2846",
+      "text": "听这首歌",
+      "gold": "music_query",
+      "predicted": "play_music"
+    },
+    {
+      "id": "2946",
+      "text": "alexa 关掉主卧室的风扇",
+      "gold": "iot_wemo_off",
+      "predicted": "iot_hue_lightoff"
+    },
+    {
+      "id": "2955",
+      "text": "我爱嘻哈音乐",
+      "gold": "music_likeness",
+      "predicted": "play_music"
+    },
+    {
+      "id": "2979",
+      "text": "夜间模式",
+      "gold": "iot_hue_lightdim",
+      "predicted": "audio_volume_mute"
+    },
+    {
+      "id": "3045",
+      "text": "下一个闹铃",
+      "gold": "alarm_query",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "3166",
+      "text": "接下来",
+      "gold": "play_music",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "3183",
+      "text": "开关机测试",
+      "gold": "iot_wemo_off",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "3203",
+      "text": "请检查我的播放列表",
+      "gold": "music_likeness",
+      "predicted": "play_podcasts"
+    },
+    {
+      "id": "3404",
+      "text": "如何重播这首歌曲",
+      "gold": "music_query",
+      "predicted": "music_settings"
+    },
+    {
+      "id": "3454",
+      "text": "去睡觉",
+      "gold": "audio_volume_mute",
+      "predicted": "iot_hue_lightoff"
+    },
+    {
+      "id": "3511",
+      "text": "夜间",
+      "gold": "general_quirky",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "3637",
+      "text": "olly 打开林俊杰的背对背拥抱",
+      "gold": "play_music",
+      "predicted": "iot_cleaning"
+    },
+    {
+      "id": "3865",
+      "text": "现在正在进行的两场伦敦大学学院比赛的比分是多少",
+      "gold": "news_query",
+      "predicted": "recommendation_events"
+    },
+    {
+      "id": "3956",
+      "text": "三小时后提醒我",
+      "gold": "alarm_set",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "3973",
+      "text": "我想知道现在英超联赛的榜首是谁",
+      "gold": "news_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "4008",
+      "text": "打开重复",
+      "gold": "music_settings",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "4033",
+      "text": "下周哪天去吃披萨最好",
+      "gold": "datetime_query",
+      "predicted": "takeaway_order"
+    },
+    {
+      "id": "4191",
+      "text": "我以前听过这个旋律哪首歌抄袭了这个旋律听起来完全一样",
+      "gold": "music_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "4326",
+      "text": "播放曾沛慈一个人想着一个人",
+      "gold": "play_music",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "4483",
+      "text": "今天几层衣服",
+      "gold": "weather_query",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "4551",
+      "text": "更新四月这个长颈鹿的信息",
+      "gold": "news_query",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "4600",
+      "text": "告诉我有哪些餐饮套餐可用",
+      "gold": "takeaway_query",
+      "predicted": "lists_query"
+    },
+    {
+      "id": "4729",
+      "text": "通知我股市的最新消息",
+      "gold": "qa_stock",
+      "predicted": "news_query"
+    },
+    {
+      "id": "4778",
+      "text": "重播最后一首歌",
+      "gold": "music_settings",
+      "predicted": "play_music"
+    },
+    {
+      "id": "4791",
+      "text": "今天天气",
+      "gold": "datetime_query",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "4899",
+      "text": "你知道这歌词吗",
+      "gold": "music_query",
+      "predicted": "music_likeness"
+    },
+    {
+      "id": "5094",
+      "text": "这里暗",
+      "gold": "iot_hue_lighton",
+      "predicted": "iot_hue_lightdim"
+    },
+    {
+      "id": "5126",
+      "text": "关岛的处方药滥用不断增多",
+      "gold": "news_query",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "5189",
+      "text": "今天我的可能",
+      "gold": "weather_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "5232",
+      "text": "全红婵昨天得了多少分",
+      "gold": "news_query",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "5436",
+      "text": "去除下午五点的闹钟",
+      "gold": "alarm_remove",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "5536",
+      "text": "请重播当前正在播放的歌曲",
+      "gold": "music_settings",
+      "predicted": "music_query"
+    },
+    {
+      "id": "5565",
+      "text": "杨幂和刘恺威复合了吗",
+      "gold": "news_query",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "5581",
+      "text": "助手随机播放整个曲库",
+      "gold": "play_music",
+      "predicted": "music_settings"
+    },
+    {
+      "id": "5609",
+      "text": "报告闹钟设置",
+      "gold": "alarm_query",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "5632",
+      "text": "随机播放所有艺人刘若英的歌曲",
+      "gold": "play_music",
+      "predicted": "music_settings"
+    },
+    {
+      "id": "5638",
+      "text": "商店除霜盐",
+      "gold": "weather_query",
+      "predicted": "recommendation_locations"
+    },
+    {
+      "id": "5667",
+      "text": "点击开始然后选择设置",
+      "gold": "alarm_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "5741",
+      "text": "专业录音机请帮我把系统页面设为储存歌曲的地方",
+      "gold": "play_music",
+      "predicted": "social_post"
+    },
+    {
+      "id": "5755",
+      "text": "打开音频",
+      "gold": "audio_volume_up",
+      "predicted": "play_audiobook"
+    },
+    {
+      "id": "5824",
+      "text": "同样专辑这个歌曲第四首",
+      "gold": "play_music",
+      "predicted": "music_query"
+    },
+    {
+      "id": "5862",
+      "text": "今天算是上海最热的一天了吗",
+      "gold": "weather_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "5867",
+      "text": "告诉我闹钟设置",
+      "gold": "alarm_query",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "5882",
+      "text": "特定词的意思",
+      "gold": "general_quirky",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "5943",
+      "text": "国际贸易和商业市场",
+      "gold": "news_query",
+      "predicted": "recommendation_locations"
+    },
+    {
+      "id": "6035",
+      "text": "开启闹钟",
+      "gold": "alarm_set",
+      "predicted": "alarm_query"
+    },
+    {
+      "id": "6136",
+      "text": "对我来说挺有趣",
+      "gold": "general_joke",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "6183",
+      "text": "今天地铁超级忙",
+      "gold": "general_quirky",
+      "predicted": "play_game"
+    },
+    {
+      "id": "6187",
+      "text": "告诉我今天的安排",
+      "gold": "general_quirky",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "6193",
+      "text": "你想听听今天发生了什么吗",
+      "gold": "general_quirky",
+      "predicted": "news_query"
+    },
+    {
+      "id": "6209",
+      "text": "如果能在市中心新开的餐馆吃晚餐就太好了",
+      "gold": "general_quirky",
+      "predicted": "recommendation_locations"
+    },
+    {
+      "id": "6246",
+      "text": "我今天有很多会议",
+      "gold": "general_quirky",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "6249",
+      "text": "你从哪里来",
+      "gold": "general_quirky",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "6259",
+      "text": "今天晴天",
+      "gold": "general_quirky",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "6303",
+      "text": "醒醒有鸡蛋和面包",
+      "gold": "general_quirky",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "6314",
+      "text": "发生了什么事",
+      "gold": "general_quirky",
+      "predicted": "news_query"
+    },
+    {
+      "id": "6356",
+      "text": "周六我收到邀请去酒吧",
+      "gold": "general_quirky",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "6361",
+      "text": "告诉我哪种酒精饮料比较好",
+      "gold": "general_quirky",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "6364",
+      "text": "告诉我一些关于美国的事情",
+      "gold": "general_quirky",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "6381",
+      "text": "嗨有什么好看的电影即将上映",
+      "gold": "general_quirky",
+      "predicted": "recommendation_movies"
+    },
+    {
+      "id": "6404",
+      "text": "当我想让他记笔记时",
+      "gold": "general_quirky",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "6414",
+      "text": "我的每周计划",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "6420",
+      "text": "琐事",
+      "gold": "general_quirky",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "6422",
+      "text": "维基百科主题",
+      "gold": "general_quirky",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "6499",
+      "text": "移动",
+      "gold": "general_quirky",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "6502",
+      "text": "我被雨淋湿了",
+      "gold": "general_quirky",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "6513",
+      "text": "时尚",
+      "gold": "general_quirky",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "6520",
+      "text": "规划",
+      "gold": "calendar_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "6522",
+      "text": "给我答复",
+      "gold": "general_quirky",
+      "predicted": "email_sendemail"
+    },
+    {
+      "id": "6540",
+      "text": "今天应该被标记为我的作弊日",
+      "gold": "calendar_set",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "6570",
+      "text": "告诉我关于雷哈娜的事",
+      "gold": "general_quirky",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "6595",
+      "text": "这时候我做了什么",
+      "gold": "general_quirky",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "6599",
+      "text": "宇宙",
+      "gold": "general_quirky",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "6603",
+      "text": "公寓里的温度是多少",
+      "gold": "general_quirky",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "6613",
+      "text": "烹饪",
+      "gold": "cooking_query",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "6628",
+      "text": "预测利率",
+      "gold": "general_quirky",
+      "predicted": "qa_currency"
+    },
+    {
+      "id": "6642",
+      "text": "最近关于谷歌搜索引擎优化的建议",
+      "gold": "general_quirky",
+      "predicted": "news_query"
+    },
+    {
+      "id": "6655",
+      "text": "食品杂货店需要的食材",
+      "gold": "general_quirky",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "6677",
+      "text": "太空研究",
+      "gold": "general_quirky",
+      "predicted": "news_query"
+    },
+    {
+      "id": "6692",
+      "text": "豆瓣",
+      "gold": "general_quirky",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "6775",
+      "text": "它是什么时候",
+      "gold": "general_quirky",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "6827",
+      "text": "你有加上明天晚上九点和老王的会议吗",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "6841",
+      "text": "我明天下午九点有会面",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "6991",
+      "text": "最新的活动",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "7112",
+      "text": "下周和我的老板的会议在什么时候",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "7134",
+      "text": "下一个活动要做什么",
+      "gold": "calendar_query",
+      "predicted": "calendar_remove"
+    },
+    {
+      "id": "7223",
+      "text": "告诉我我朋友家明的公司的开业日期",
+      "gold": "calendar_query",
+      "predicted": "email_querycontact"
+    },
+    {
+      "id": "7255",
+      "text": "我明天有什么安排需要取消",
+      "gold": "calendar_remove",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "7373",
+      "text": "婚礼安排在什么时候",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "7381",
+      "text": "请查看二零一七年三月二十二日的第三次活动",
+      "gold": "calendar_query",
+      "predicted": "calendar_remove"
+    },
+    {
+      "id": "7401",
+      "text": "明天加上和她过情人节",
+      "gold": "calendar_set",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "7523",
+      "text": "我们在昨天举行的会议上得到了什么",
+      "gold": "calendar_query",
+      "predicted": "news_query"
+    },
+    {
+      "id": "7571",
+      "text": "账单周期是什么时候",
+      "gold": "calendar_query",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "7595",
+      "text": "为曲奇设置五分钟的计时器",
+      "gold": "calendar_set",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "7676",
+      "text": "列出即将举行的会议",
+      "gold": "calendar_set",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "7727",
+      "text": "我周一有个生日活动",
+      "gold": "calendar_set",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "7766",
+      "text": "有什么办法可以让我清空这个月的日程表吗",
+      "gold": "calendar_remove",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "7801",
+      "text": "增加一条要参加的注意",
+      "gold": "calendar_set",
+      "predicted": "music_likeness"
+    },
+    {
+      "id": "7871",
+      "text": "谁将出席这周五的会议",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "7880",
+      "text": "告诉我从今天到二十一号的所有事项",
+      "gold": "calendar_query",
+      "predicted": "calendar_remove"
+    },
+    {
+      "id": "7893",
+      "text": "请每三十分钟给我一次选举的最新情况",
+      "gold": "calendar_set",
+      "predicted": "news_query"
+    },
+    {
+      "id": "7947",
+      "text": "下一场王菲的演唱会安排得怎样",
+      "gold": "calendar_query",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "7969",
+      "text": "今晚剧院上演的是谁",
+      "gold": "recommendation_events",
+      "predicted": "recommendation_movies"
+    },
+    {
+      "id": "8047",
+      "text": "在二月十四日在餐馆预订晚餐",
+      "gold": "calendar_set",
+      "predicted": "recommendation_locations"
+    },
+    {
+      "id": "8089",
+      "text": "我什么时候开会",
+      "gold": "calendar_set",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "8101",
+      "text": "天猫精灵给我发电子邮件重新安排我的预约",
+      "gold": "email_sendemail",
+      "predicted": "email_query"
+    },
+    {
+      "id": "8127",
+      "text": "会议更新我的日历以显示会议",
+      "gold": "calendar_set",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "8132",
+      "text": "明天火车什么时候开",
+      "gold": "calendar_query",
+      "predicted": "transport_query"
+    },
+    {
+      "id": "8192",
+      "text": "那次活动发生了什么事",
+      "gold": "recommendation_events",
+      "predicted": "news_query"
+    },
+    {
+      "id": "8253",
+      "text": "设个提醒我需要每天早上五点起床",
+      "gold": "alarm_set",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "8258",
+      "text": "更多关于果戈里大街的音乐会",
+      "gold": "calendar_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "8323",
+      "text": "你有把明天的会议加到我的日历中吗",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "8372",
+      "text": "嘿 siri 确保明天我的的日程表是空白的",
+      "gold": "calendar_remove",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "8425",
+      "text": "今天早上六点四十五分有什么消息",
+      "gold": "calendar_query",
+      "predicted": "news_query"
+    },
+    {
+      "id": "8491",
+      "text": "今晚的足球赛的精彩部分是什么",
+      "gold": "calendar_query",
+      "predicted": "play_game"
+    },
+    {
+      "id": "8510",
+      "text": "布鲁诺马尔斯什么时候来四平",
+      "gold": "calendar_query",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "8609",
+      "text": "取消我周二和丽莎的会议把它改到周四",
+      "gold": "calendar_set",
+      "predicted": "calendar_remove"
+    },
+    {
+      "id": "8699",
+      "text": "我得准备一个会面",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "8808",
+      "text": "周一有什么会议需要提醒我吗",
+      "gold": "calendar_set",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "8829",
+      "text": "日历活动是否有误",
+      "gold": "calendar_query",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "8847",
+      "text": "提醒我带上我的雨衣因为会下雨",
+      "gold": "calendar_set",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "8848",
+      "text": "告诉我带上我的伞因为今天很热",
+      "gold": "calendar_set",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "8903",
+      "text": "告诉我最近的活动",
+      "gold": "calendar_query",
+      "predicted": "recommendation_events"
+    },
+    {
+      "id": "9040",
+      "text": "七月三日日程表留成空白",
+      "gold": "calendar_remove",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "9215",
+      "text": "播放摇滚的酷狗音乐",
+      "gold": "play_radio",
+      "predicted": "play_music"
+    },
+    {
+      "id": "9310",
+      "text": "播放纯音乐",
+      "gold": "play_radio",
+      "predicted": "play_music"
+    },
+    {
+      "id": "9432",
+      "text": "我的体育播客中有多少有我还没有听过的新剧集",
+      "gold": "play_radio",
+      "predicted": "play_podcasts"
+    },
+    {
+      "id": "9442",
+      "text": "打开潘多拉并播放热门歌曲",
+      "gold": "play_radio",
+      "predicted": "play_music"
+    },
+    {
+      "id": "9521",
+      "text": "播放尼尔布伦南一集等待别告诉我",
+      "gold": "play_radio",
+      "predicted": "play_podcasts"
+    },
+    {
+      "id": "9606",
+      "text": "播放王源在未来",
+      "gold": "play_radio",
+      "predicted": "play_music"
+    },
+    {
+      "id": "9688",
+      "text": "开始播放阿尔玛的第七章",
+      "gold": "play_audiobook",
+      "predicted": "play_music"
+    },
+    {
+      "id": "9743",
+      "text": "播放音频",
+      "gold": "play_audiobook",
+      "predicted": "play_music"
+    },
+    {
+      "id": "9872",
+      "text": "请播放只对你有感觉",
+      "gold": "play_audiobook",
+      "predicted": "play_music"
+    },
+    {
+      "id": "9934",
+      "text": "我可以用西蓝花和鸡肉做什么",
+      "gold": "cooking_recipe",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "9978",
+      "text": "请播放制作川菜的视频",
+      "gold": "cooking_recipe",
+      "predicted": "play_music"
+    },
+    {
+      "id": "9996",
+      "text": "最性感的",
+      "gold": "cooking_recipe",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "9999",
+      "text": "披萨松脆的",
+      "gold": "cooking_recipe",
+      "predicted": "takeaway_order"
+    },
+    {
+      "id": "10196",
+      "text": "我需要一些做川菜的晚餐点子",
+      "gold": "cooking_recipe",
+      "predicted": "takeaway_order"
+    },
+    {
+      "id": "10210",
+      "text": "没有更多评论",
+      "gold": "cooking_recipe",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "10327",
+      "text": "让我们一起解决拼图",
+      "gold": "play_game",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "10388",
+      "text": "你能玩我画你猜吗",
+      "gold": "play_game",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "10449",
+      "text": "取消下周去包头的旅行",
+      "gold": "lists_remove",
+      "predicted": "calendar_remove"
+    },
+    {
+      "id": "10457",
+      "text": "在我的聚会购物列表中加上伏特加",
+      "gold": "lists_query",
+      "predicted": "lists_createoradd"
+    },
+    {
+      "id": "10475",
+      "text": "取决于看到了什么",
+      "gold": "lists_remove",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "10496",
+      "text": "我给哪一个杂货店做了清单",
+      "gold": "lists_query",
+      "predicted": "lists_createoradd"
+    },
+    {
+      "id": "10532",
+      "text": "哪些是我最后的五个列表",
+      "gold": "lists_query",
+      "predicted": "lists_remove"
+    },
+    {
+      "id": "10539",
+      "text": "把上传的最后一个清单发给我",
+      "gold": "lists_query",
+      "predicted": "lists_createoradd"
+    },
+    {
+      "id": "10545",
+      "text": "给我做一个数字清单",
+      "gold": "lists_createoradd",
+      "predicted": "lists_query"
+    },
+    {
+      "id": "10555",
+      "text": "在我的待办清单上勾掉第五个项目",
+      "gold": "lists_query",
+      "predicted": "lists_createoradd"
+    },
+    {
+      "id": "10602",
+      "text": "告诉我播放列表",
+      "gold": "music_query",
+      "predicted": "play_music"
+    },
+    {
+      "id": "10751",
+      "text": "谷歌翻译",
+      "gold": "lists_query",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "10758",
+      "text": "读购物清单项目",
+      "gold": "lists_query",
+      "predicted": "lists_createoradd"
+    },
+    {
+      "id": "10767",
+      "text": "鸡蛋在我的购物清单上吗",
+      "gold": "lists_query",
+      "predicted": "lists_createoradd"
+    },
+    {
+      "id": "10775",
+      "text": "我有参加我计划的派对的联系人清单吗",
+      "gold": "lists_query",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "10889",
+      "text": "我做了一个购物清单",
+      "gold": "lists_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "10924",
+      "text": "把周三早上的会去掉",
+      "gold": "calendar_remove",
+      "predicted": "lists_remove"
+    },
+    {
+      "id": "10941",
+      "text": "制作工作的清单",
+      "gold": "lists_createoradd",
+      "predicted": "lists_query"
+    },
+    {
+      "id": "11041",
+      "text": "提醒我多订点肥皂",
+      "gold": "lists_createoradd",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "11096",
+      "text": "删除王菲音乐列表",
+      "gold": "lists_remove",
+      "predicted": "play_music"
+    },
+    {
+      "id": "11160",
+      "text": "我不想要鸡蛋",
+      "gold": "lists_remove",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "11182",
+      "text": "我的健康计划",
+      "gold": "lists_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "11212",
+      "text": "删除以前的播放列表并创建新的",
+      "gold": "lists_createoradd",
+      "predicted": "lists_remove"
+    },
+    {
+      "id": "11374",
+      "text": "请前进",
+      "gold": "play_podcasts",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "11440",
+      "text": "播放最新的声行漫步",
+      "gold": "play_podcasts",
+      "predicted": "play_music"
+    },
+    {
+      "id": "11477",
+      "text": "首事你应该知道的事情",
+      "gold": "play_podcasts",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "11503",
+      "text": "倒带按钮",
+      "gold": "play_podcasts",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "11552",
+      "text": "更多更清晰和以主题为导向",
+      "gold": "play_podcasts",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "11553",
+      "text": "五月天",
+      "gold": "play_podcasts",
+      "predicted": "play_music"
+    },
+    {
+      "id": "11557",
+      "text": "播放最近一集超音乐",
+      "gold": "play_podcasts",
+      "predicted": "play_music"
+    },
+    {
+      "id": "11617",
+      "text": "国家大剧院安排了哪些展览或表演",
+      "gold": "recommendation_events",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "11658",
+      "text": "今晚的美食节在哪里",
+      "gold": "recommendation_events",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "11729",
+      "text": "游玩神农架国家公园的时候列一个游玩清单",
+      "gold": "recommendation_events",
+      "predicted": "play_game"
+    },
+    {
+      "id": "11730",
+      "text": "当我游玩神农架国家公园时应该做哪些事",
+      "gold": "recommendation_events",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "11883",
+      "text": "那种旗帜骑行最好",
+      "gold": "recommendation_events",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "11899",
+      "text": "有什么值得看的吗",
+      "gold": "recommendation_movies",
+      "predicted": "recommendation_events"
+    },
+    {
+      "id": "11928",
+      "text": "武汉市发生了什么事",
+      "gold": "recommendation_events",
+      "predicted": "news_query"
+    },
+    {
+      "id": "12006",
+      "text": "今天重庆市发生了什么事",
+      "gold": "recommendation_events",
+      "predicted": "news_query"
+    },
+    {
+      "id": "12096",
+      "text": "附近发生了什么",
+      "gold": "recommendation_events",
+      "predicted": "news_query"
+    },
+    {
+      "id": "12107",
+      "text": "在附近找一家能外送披萨的华莱士",
+      "gold": "recommendation_locations",
+      "predicted": "takeaway_order"
+    },
+    {
+      "id": "12177",
+      "text": "运河街的车辆多吗",
+      "gold": "transport_traffic",
+      "predicted": "transport_taxi"
+    },
+    {
+      "id": "12260",
+      "text": "给我一张下周四去波士顿的美铁车票越晚越好",
+      "gold": "transport_query",
+      "predicted": "transport_ticket"
+    },
+    {
+      "id": "12267",
+      "text": "吉林省邯郸",
+      "gold": "transport_query",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "12325",
+      "text": "和车费",
+      "gold": "transport_ticket",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "12408",
+      "text": "最近的苹果商店的地址",
+      "gold": "transport_query",
+      "predicted": "recommendation_locations"
+    },
+    {
+      "id": "12505",
+      "text": "北京运通火车",
+      "gold": "transport_query",
+      "predicted": "transport_traffic"
+    },
+    {
+      "id": "12533",
+      "text": "地方",
+      "gold": "transport_query",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "12617",
+      "text": "请告诉我怎样去买一张去纽约的火车票",
+      "gold": "transport_query",
+      "predicted": "transport_ticket"
+    },
+    {
+      "id": "12706",
+      "text": "预定这个的火车票的时间",
+      "gold": "transport_ticket",
+      "predicted": "transport_query"
+    },
+    {
+      "id": "12891",
+      "text": "让我搭从新泽西到纽约的通勤火车",
+      "gold": "transport_ticket",
+      "predicted": "transport_query"
+    },
+    {
+      "id": "12895",
+      "text": "某一特定区域的道路是宽还是窄",
+      "gold": "transport_traffic",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "12974",
+      "text": "计算这个电阻的电阻",
+      "gold": "qa_factoid",
+      "predicted": "qa_maths"
+    },
+    {
+      "id": "12977",
+      "text": "谷歌",
+      "gold": "qa_maths",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "12978",
+      "text": "浏览中心",
+      "gold": "qa_maths",
+      "predicted": "recommendation_locations"
+    },
+    {
+      "id": "13011",
+      "text": "时间旅行真的有可能吗？",
+      "gold": "general_quirky",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "13037",
+      "text": "今晚我该煮什么",
+      "gold": "general_quirky",
+      "predicted": "recommendation_events"
+    },
+    {
+      "id": "13038",
+      "text": "告诉我死后会发生什么事",
+      "gold": "general_quirky",
+      "predicted": "recommendation_events"
+    },
+    {
+      "id": "13063",
+      "text": "为你和我安排一个约会",
+      "gold": "general_quirky",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "13075",
+      "text": "告诉我为什么周星驰是一个比宋丹丹好的喜剧演员",
+      "gold": "qa_factoid",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "13106",
+      "text": "你听见五月天的音乐了吗",
+      "gold": "music_query",
+      "predicted": "play_music"
+    },
+    {
+      "id": "13110",
+      "text": "那个演员演这个角色",
+      "gold": "qa_definition",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "13113",
+      "text": "请给我有关阿米尔汗的下一部电影的信息",
+      "gold": "qa_factoid",
+      "predicted": "recommendation_movies"
+    },
+    {
+      "id": "13118",
+      "text": "一个也没有",
+      "gold": "qa_factoid",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "13185",
+      "text": "计算从北京到上海的距离",
+      "gold": "qa_factoid",
+      "predicted": "transport_query"
+    },
+    {
+      "id": "13227",
+      "text": "总结我能为自己做的所有事情更开心",
+      "gold": "general_quirky",
+      "predicted": "calendar_remove"
+    },
+    {
+      "id": "13275",
+      "text": "我在什么位置",
+      "gold": "general_quirky",
+      "predicted": "recommendation_locations"
+    },
+    {
+      "id": "13281",
+      "text": "我想给我的妻子写一些原创的浪漫的短信",
+      "gold": "general_quirky",
+      "predicted": "email_sendemail"
+    },
+    {
+      "id": "13284",
+      "text": "告诉我华罗庚和他的数学研究历程的故事",
+      "gold": "qa_factoid",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "13316",
+      "text": "以下问题要求您分析教师的目标和预期的行动",
+      "gold": "qa_factoid",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "13367",
+      "text": "定义单词时调出词库并给出例句让单词意思更加清晰",
+      "gold": "general_quirky",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "13373",
+      "text": "谁是 n. h. l . 有史以来的前五名射手",
+      "gold": "general_quirky",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "13419",
+      "text": "特朗普的支持率是多少",
+      "gold": "qa_factoid",
+      "predicted": "news_query"
+    },
+    {
+      "id": "13462",
+      "text": "解决数学问题",
+      "gold": "qa_maths",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "13481",
+      "text": "读一首诗给我听",
+      "gold": "general_quirky",
+      "predicted": "play_music"
+    },
+    {
+      "id": "13490",
+      "text": "上周纳斯达克价格和北京的天气有什么关系吗",
+      "gold": "general_quirky",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "13496",
+      "text": "沈腾是独生子吗",
+      "gold": "qa_factoid",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "13502",
+      "text": "为什么天空是蓝色的",
+      "gold": "qa_factoid",
+      "predicted": "iot_hue_lightchange"
+    },
+    {
+      "id": "13544",
+      "text": "果冻丸不含卡路里吗",
+      "gold": "qa_factoid",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "13549",
+      "text": "告诉我哪里有最实惠的碎牛肉",
+      "gold": "recommendation_locations",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "13576",
+      "text": "下一次巡演是什么时候",
+      "gold": "general_quirky",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "13617",
+      "text": "告诉我今天世界上发生了哪些奇事",
+      "gold": "general_quirky",
+      "predicted": "news_query"
+    },
+    {
+      "id": "13651",
+      "text": "五公里等于多少英里",
+      "gold": "qa_maths",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "13724",
+      "text": "你对自由女神像了解多少",
+      "gold": "qa_definition",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "13756",
+      "text": "帮我找到资料关于",
+      "gold": "qa_definition",
+      "predicted": "email_querycontact"
+    },
+    {
+      "id": "13812",
+      "text": "告诉我关于羊肚菌的事",
+      "gold": "qa_definition",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "13836",
+      "text": "哪种宗教最真实",
+      "gold": "general_quirky",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "13892",
+      "text": "我需要让两个婴儿有事做告诉我要怎么做",
+      "gold": "general_quirky",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "13914",
+      "text": "你能告诉我美元兑卢比的汇率吗",
+      "gold": "qa_factoid",
+      "predicted": "qa_currency"
+    },
+    {
+      "id": "13919",
+      "text": "告诉我有关太阳能花园木桩的信息",
+      "gold": "qa_definition",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "13938",
+      "text": "我有什么新的探探配对吗",
+      "gold": "calendar_query",
+      "predicted": "social_query"
+    },
+    {
+      "id": "14007",
+      "text": "什么是峡湾",
+      "gold": "qa_factoid",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "14152",
+      "text": "裤裙是什么类型的裤子",
+      "gold": "qa_factoid",
+      "predicted": "music_query"
+    },
+    {
+      "id": "14156",
+      "text": "在维基百科中尝试",
+      "gold": "qa_definition",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "14205",
+      "text": "请告诉我如果我今天投资道琼斯指数我什么时候可以致富五年后的回报是多少",
+      "gold": "qa_stock",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "14212",
+      "text": "找到这个地方的确切位置",
+      "gold": "recommendation_locations",
+      "predicted": "transport_query"
+    },
+    {
+      "id": "14230",
+      "text": "列出艾玛沃特森的前五部电影",
+      "gold": "qa_factoid",
+      "predicted": "recommendation_movies"
+    },
+    {
+      "id": "14291",
+      "text": "展示地球上的各种植物",
+      "gold": "qa_factoid",
+      "predicted": "play_game"
+    },
+    {
+      "id": "14393",
+      "text": "描述当前的政治",
+      "gold": "qa_factoid",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "14408",
+      "text": "用一个字来形容你自己",
+      "gold": "general_quirky",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "14450",
+      "text": "平克正在录制新专辑吗",
+      "gold": "qa_factoid",
+      "predicted": "music_query"
+    },
+    {
+      "id": "14458",
+      "text": "大众汽车看起来怎么样",
+      "gold": "qa_definition",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "14460",
+      "text": "ipad air 的特点",
+      "gold": "general_quirky",
+      "predicted": "play_radio"
+    },
+    {
+      "id": "14516",
+      "text": "什么是二零一七年最好的智能手机",
+      "gold": "qa_factoid",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "14541",
+      "text": "给我这个人所有信息",
+      "gold": "general_quirky",
+      "predicted": "news_query"
+    },
+    {
+      "id": "14582",
+      "text": "告诉我不坐飞机的话怎么去巴厘岛最便宜时间无所为我有两百天的旅行时间但是我只用美元",
+      "gold": "general_quirky",
+      "predicted": "transport_query"
+    },
+    {
+      "id": "14609",
+      "text": "向我解释重力是如何运作的",
+      "gold": "qa_factoid",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "14727",
+      "text": "是哪些因素让莫迪赢得了选举",
+      "gold": "general_quirky",
+      "predicted": "news_query"
+    },
+    {
+      "id": "14731",
+      "text": "地震预报",
+      "gold": "general_quirky",
+      "predicted": "weather_query"
+    },
+    {
+      "id": "14737",
+      "text": "好的谷歌一下做火鸡最简单快捷的方法是什么",
+      "gold": "cooking_query",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "14744",
+      "text": "肉鸡是什么样的器具我该如何使用它",
+      "gold": "general_quirky",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "14773",
+      "text": "艾利克斯告诉我你对鲍勃·迪恩的了解",
+      "gold": "qa_factoid",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "14827",
+      "text": "佳能的描述中列出了多少百万像素",
+      "gold": "qa_factoid",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "14868",
+      "text": "给我找一些摩羯座的名人",
+      "gold": "qa_factoid",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "14872",
+      "text": "如果是消费品那么客户的反馈是什么",
+      "gold": "general_quirky",
+      "predicted": "social_post"
+    },
+    {
+      "id": "14930",
+      "text": "这周特朗普在做什么",
+      "gold": "qa_factoid",
+      "predicted": "news_query"
+    },
+    {
+      "id": "14953",
+      "text": "轮空晋级是什么",
+      "gold": "qa_definition",
+      "predicted": "news_query"
+    },
+    {
+      "id": "14971",
+      "text": "告诉我世界是怎么形成的",
+      "gold": "general_quirky",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "14989",
+      "text": "世界",
+      "gold": "qa_factoid",
+      "predicted": "news_query"
+    },
+    {
+      "id": "15015",
+      "text": "从纽约到日本有多远",
+      "gold": "transport_query",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "15043",
+      "text": "苹果交易的是什么",
+      "gold": "qa_stock",
+      "predicted": "qa_definition"
+    },
+    {
+      "id": "15064",
+      "text": "计算指数函数从零到五的近似积分",
+      "gold": "qa_factoid",
+      "predicted": "qa_maths"
+    },
+    {
+      "id": "15065",
+      "text": "请告诉我英国脱欧在长期和中期内将如何影响欧盟国民",
+      "gold": "qa_factoid",
+      "predicted": "news_query"
+    },
+    {
+      "id": "15157",
+      "text": "我妈妈最后说了什么",
+      "gold": "social_query",
+      "predicted": "email_query"
+    },
+    {
+      "id": "15174",
+      "text": "找到我的微博最新评论",
+      "gold": "social_query",
+      "predicted": "social_post"
+    },
+    {
+      "id": "15221",
+      "text": "在优酷上播放一个视频",
+      "gold": "social_post",
+      "predicted": "play_radio"
+    },
+    {
+      "id": "15242",
+      "text": "脸书状态忙碌的一天",
+      "gold": "social_post",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "15252",
+      "text": "给我显示根据我的亲戚的照片列下的去过的地点",
+      "gold": "social_query",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "15297",
+      "text": "当有什么状态更新的时候请通知我",
+      "gold": "social_query",
+      "predicted": "email_query"
+    },
+    {
+      "id": "15319",
+      "text": "新微博",
+      "gold": "social_post",
+      "predicted": "social_query"
+    },
+    {
+      "id": "15349",
+      "text": "我对腾讯不满意请帮帮我",
+      "gold": "social_post",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "15388",
+      "text": "告诉我的微博群组我已经到了",
+      "gold": "social_post",
+      "predicted": "social_query"
+    },
+    {
+      "id": "15414",
+      "text": "我需要一个食槽",
+      "gold": "general_quirky",
+      "predicted": "cooking_recipe"
+    },
+    {
+      "id": "15545",
+      "text": "提醒我在这家公司发推特",
+      "gold": "calendar_set",
+      "predicted": "social_post"
+    },
+    {
+      "id": "15562",
+      "text": "说明情况",
+      "gold": "general_quirky",
+      "predicted": "news_query"
+    },
+    {
+      "id": "15596",
+      "text": "微博上的帖子让我度过了忙碌的一天",
+      "gold": "social_post",
+      "predicted": "social_query"
+    },
+    {
+      "id": "15645",
+      "text": "社会信息",
+      "gold": "social_query",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "16026",
+      "text": "查询李雷的截止日期",
+      "gold": "email_query",
+      "predicted": "email_querycontact"
+    },
+    {
+      "id": "16030",
+      "text": "在此电子邮件中向这位同事打开这封新的电子邮件",
+      "gold": "email_sendemail",
+      "predicted": "email_query"
+    },
+    {
+      "id": "16066",
+      "text": "打个招呼",
+      "gold": "email_sendemail",
+      "predicted": "calendar_set"
+    },
+    {
+      "id": "16132",
+      "text": "我希望这个新的电子邮件能够添加到我的联系人中",
+      "gold": "email_sendemail",
+      "predicted": "email_addcontact"
+    },
+    {
+      "id": "16244",
+      "text": "鲍勃住在法国",
+      "gold": "email_querycontact",
+      "predicted": "qa_factoid"
+    },
+    {
+      "id": "16289",
+      "text": "诊所对我的检查怎么说",
+      "gold": "email_query",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "16303",
+      "text": "你能帮我查一下我近期有任何提醒吗",
+      "gold": "email_query",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "16322",
+      "text": "告诉林家俊",
+      "gold": "email_sendemail",
+      "predicted": "email_querycontact"
+    },
+    {
+      "id": "16330",
+      "text": "答谢",
+      "gold": "email_sendemail",
+      "predicted": "qa_maths"
+    },
+    {
+      "id": "16407",
+      "text": "启动电子邮件",
+      "gold": "email_sendemail",
+      "predicted": "email_query"
+    },
+    {
+      "id": "16462",
+      "text": "我有什么新讯息吗",
+      "gold": "email_query",
+      "predicted": "news_query"
+    },
+    {
+      "id": "16574",
+      "text": "新的地址",
+      "gold": "email_sendemail",
+      "predicted": "email_querycontact"
+    },
+    {
+      "id": "16580",
+      "text": "谷歌查找我星期五添加的李雷的新电子邮件地址",
+      "gold": "email_query",
+      "predicted": "email_querycontact"
+    },
+    {
+      "id": "16582",
+      "text": "这是我老板的正确区号吗",
+      "gold": "email_querycontact",
+      "predicted": "music_likeness"
+    },
+    {
+      "id": "16588",
+      "text": "请删除我已经三个月没有联系的联系人",
+      "gold": "email_querycontact",
+      "predicted": "lists_remove"
+    },
+    {
+      "id": "16768",
+      "text": "打开李雷的电子邮件",
+      "gold": "email_sendemail",
+      "predicted": "email_query"
+    },
+    {
+      "id": "16788",
+      "text": "我近期发过电子邮件给谁",
+      "gold": "email_query",
+      "predicted": "email_sendemail"
+    },
+    {
+      "id": "16848",
+      "text": "邮件苏珊以及提及",
+      "gold": "email_sendemail",
+      "predicted": "email_query"
+    }
+  ]
+}

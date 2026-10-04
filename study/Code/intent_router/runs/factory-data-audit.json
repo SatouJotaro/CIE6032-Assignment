@@ -1,0 +1,22 @@
+{
+  "1000/train_dataset": {
+    "rows": 1000,
+    "all_prefixes_and_loss_masks_match": true,
+    "max_tokens": 591
+  },
+  "1000/eval_dataset": {
+    "rows": 2033,
+    "all_prefixes_and_loss_masks_match": true,
+    "max_tokens": 599
+  },
+  "5000/train_dataset": {
+    "rows": 5000,
+    "all_prefixes_and_loss_masks_match": true,
+    "max_tokens": 599
+  },
+  "5000/eval_dataset": {
+    "rows": 2033,
+    "all_prefixes_and_loss_masks_match": true,
+    "max_tokens": 599
+  }
+}

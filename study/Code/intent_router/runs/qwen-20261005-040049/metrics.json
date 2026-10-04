@@ -1,0 +1,924 @@
+{
+  "n": 118,
+  "accuracy": 0.2457627118644068,
+  "macro_f1": 0.22165343915343916,
+  "json_valid_rate": 0.9830508474576272,
+  "schema_valid_rate": 0.635593220338983,
+  "invalid_count": 43,
+  "per_class": {
+    "alarm_query": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "alarm_remove": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "alarm_set": {
+      "precision": 0.1,
+      "recall": 0.5,
+      "f1-score": 0.16666666666666666,
+      "support": 2.0
+    },
+    "audio_volume_down": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "audio_volume_mute": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "audio_volume_other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "audio_volume_up": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "calendar_query": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "calendar_remove": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "calendar_set": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "cooking_query": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "cooking_recipe": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "datetime_convert": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "datetime_query": {
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1-score": 0.5714285714285714,
+      "support": 2.0
+    },
+    "email_addcontact": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "email_query": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "email_querycontact": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "email_sendemail": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "general_greet": {
+      "precision": 0.125,
+      "recall": 0.5,
+      "f1-score": 0.2,
+      "support": 2.0
+    },
+    "general_joke": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "general_quirky": {
+      "precision": 0.16666666666666666,
+      "recall": 0.5,
+      "f1-score": 0.25,
+      "support": 2.0
+    },
+    "iot_cleaning": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "iot_coffee": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "iot_hue_lightchange": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "iot_hue_lightdim": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "iot_hue_lightoff": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "iot_hue_lighton": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "iot_hue_lightup": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "iot_wemo_off": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "iot_wemo_on": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "lists_createoradd": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "lists_query": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "lists_remove": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "music_dislikeness": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "music_likeness": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "music_query": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1-score": 0.4,
+      "support": 2.0
+    },
+    "music_settings": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "news_query": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "play_audiobook": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "play_game": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "play_music": {
+      "precision": 0.2857142857142857,
+      "recall": 1.0,
+      "f1-score": 0.4444444444444444,
+      "support": 2.0
+    },
+    "play_podcasts": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "play_radio": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "qa_currency": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "qa_definition": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "qa_factoid": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "qa_maths": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "qa_stock": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "recommendation_events": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "recommendation_locations": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "recommendation_movies": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "social_post": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "social_query": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "takeaway_order": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "takeaway_query": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "transport_query": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "transport_taxi": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "transport_ticket": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "transport_traffic": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "weather_query": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "micro avg": {
+      "precision": 0.38666666666666666,
+      "recall": 0.2457627118644068,
+      "f1-score": 0.3005181347150259,
+      "support": 118.0
+    },
+    "macro avg": {
+      "precision": 0.24573412698412697,
+      "recall": 0.24166666666666667,
+      "f1-score": 0.22165343915343916,
+      "support": 118.0
+    },
+    "weighted avg": {
+      "precision": 0.24989911218724778,
+      "recall": 0.2457627118644068,
+      "f1-score": 0.22541027710519235,
+      "support": 118.0
+    }
+  },
+  "errors": [
+    {
+      "id": "11283",
+      "text": "播放下一集",
+      "gold": "play_podcasts",
+      "predicted": "play_audiobook"
+    },
+    {
+      "id": "12095",
+      "text": "能给我推荐一些朝阳路的酒吧吗",
+      "gold": "recommendation_locations",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "1988",
+      "text": "嘿艾利克斯打开我公寓里的迪斯科灯让派对开始",
+      "gold": "iot_hue_lighton",
+      "predicted": "music_query"
+    },
+    {
+      "id": "12394",
+      "text": "今天帮我买一张去利兹市的火车票",
+      "gold": "transport_ticket",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "4619",
+      "text": "启动新的智能插座",
+      "gold": "iot_wemo_on",
+      "predicted": "iot_hue_lighton"
+    },
+    {
+      "id": "14218",
+      "text": "一英尺等于多少英寸",
+      "gold": "qa_maths",
+      "predicted": "alarm_query"
+    },
+    {
+      "id": "5653",
+      "text": "小米智能插座",
+      "gold": "iot_wemo_on",
+      "predicted": "iot_hue_lighton"
+    },
+    {
+      "id": "12919",
+      "text": "请在滴滴平台上给我订辆车",
+      "gold": "transport_taxi",
+      "predicted": "transport_query"
+    },
+    {
+      "id": "8417",
+      "text": "取消我的所有的约会",
+      "gold": "calendar_remove",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "2693",
+      "text": "给我做杯咖啡",
+      "gold": "iot_coffee",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "11440",
+      "text": "播放最新的声行漫步",
+      "gold": "play_podcasts",
+      "predicted": "play_music"
+    },
+    {
+      "id": "12899",
+      "text": "为我在三月二十日的火车上预订一个座位",
+      "gold": "transport_ticket",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "14621",
+      "text": "美元到欧元的汇率",
+      "gold": "qa_currency",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "11876",
+      "text": "在我的地区发生了什么活动",
+      "gold": "recommendation_events",
+      "predicted": "general_greet"
+    },
+    {
+      "id": "7747",
+      "text": "清除我的日历上的所有信息",
+      "gold": "calendar_remove",
+      "predicted": "calendar_query"
+    },
+    {
+      "id": "14380",
+      "text": "不完整罪的定义是什么",
+      "gold": "qa_definition",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "15297",
+      "text": "当有什么状态更新的时候请通知我",
+      "gold": "social_query",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "10039",
+      "text": "给我看看饼干的食谱",
+      "gold": "cooking_recipe",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "14343",
+      "text": "说一下京东现在的股价",
+      "gold": "qa_stock",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "10844",
+      "text": "从我的杂货清单里删除牛奶",
+      "gold": "lists_remove",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "14852",
+      "text": "周迅的自然发色是什么",
+      "gold": "qa_factoid",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "14827",
+      "text": "佳能的描述中列出了多少百万像素",
+      "gold": "qa_factoid",
+      "predicted": "alarm_query"
+    },
+    {
+      "id": "1698",
+      "text": "我不喜欢那首歌关掉它",
+      "gold": "music_dislikeness",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "439",
+      "text": "今天我该穿外套",
+      "gold": "weather_query",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "6932",
+      "text": "我的明天的事件时间表是什么",
+      "gold": "calendar_query",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "943",
+      "text": "如果东部沿海时间是晚上八点浙江省杭州市是几点",
+      "gold": "datetime_convert",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "2710",
+      "text": "关闭电流",
+      "gold": "iot_hue_lightoff",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "2741",
+      "text": "我喜欢的餐厅送外卖吗",
+      "gold": "takeaway_query",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "15252",
+      "text": "给我显示根据我的亲戚的照片列下的去过的地点",
+      "gold": "social_query",
+      "predicted": "datetime_query"
+    },
+    {
+      "id": "925",
+      "text": "请把灯光调暗一点",
+      "gold": "iot_hue_lightdim",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "9831",
+      "text": "开始朗读盗墓笔记第四章",
+      "gold": "play_audiobook",
+      "predicted": "general_greet"
+    },
+    {
+      "id": "331",
+      "text": "更柔和",
+      "gold": "audio_volume_down",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "14267",
+      "text": "六减四等于多少",
+      "gold": "qa_maths",
+      "predicted": "alarm_query"
+    },
+    {
+      "id": "3183",
+      "text": "开关机测试",
+      "gold": "iot_wemo_off",
+      "predicted": "general_greet"
+    },
+    {
+      "id": "8272",
+      "text": "把我即将到来的会议加到我的日程表上",
+      "gold": "calendar_set",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "15458",
+      "text": "我有一个糟糕的体验我需要发微博给和府捞面",
+      "gold": "social_post",
+      "predicted": "social_query"
+    },
+    {
+      "id": "3956",
+      "text": "三小时后提醒我",
+      "gold": "alarm_set",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "237",
+      "text": "我得定个早上起床的闹钟吗",
+      "gold": "alarm_query",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "2313",
+      "text": "灯调低到七档",
+      "gold": "iot_hue_lightdim",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "13848",
+      "text": "告诉我日元的汇率是多少",
+      "gold": "qa_currency",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "2417",
+      "text": "随机播放当前歌曲专辑",
+      "gold": "music_settings",
+      "predicted": "play_music"
+    },
+    {
+      "id": "4012",
+      "text": "开始清洁",
+      "gold": "iot_cleaning",
+      "predicted": "general_greet"
+    },
+    {
+      "id": "4778",
+      "text": "重播最后一首歌",
+      "gold": "music_settings",
+      "predicted": "play_music"
+    },
+    {
+      "id": "10295",
+      "text": "我想从第五关开始玩足球游戏",
+      "gold": "play_game",
+      "predicted": "general_greet"
+    },
+    {
+      "id": "2946",
+      "text": "alexa 关掉主卧室的风扇",
+      "gold": "iot_wemo_off",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "12888",
+      "text": "给我叫辆出租车周五早上五点半送我去机场",
+      "gold": "transport_taxi",
+      "predicted": "transport_query"
+    },
+    {
+      "id": "16582",
+      "text": "这是我老板的正确区号吗",
+      "gold": "email_querycontact",
+      "predicted": "alarm_query"
+    },
+    {
+      "id": "4287",
+      "text": "打开灯",
+      "gold": "iot_hue_lightup",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "14737",
+      "text": "好的谷歌一下做火鸡最简单快捷的方法是什么",
+      "gold": "cooking_query",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "14677",
+      "text": "给我华为股票的开盘价",
+      "gold": "qa_stock",
+      "predicted": "news_query"
+    },
+    {
+      "id": "6135",
+      "text": "给我这首歌的信息",
+      "gold": "music_query",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "12253",
+      "text": "中山路的交通怎么样",
+      "gold": "transport_traffic",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "9606",
+      "text": "播放王源在未来",
+      "gold": "play_radio",
+      "predicted": "play_music"
+    },
+    {
+      "id": "1211",
+      "text": "把纽约时间改成伦敦时间",
+      "gold": "datetime_convert",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "16574",
+      "text": "新的地址",
+      "gold": "email_sendemail",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "167",
+      "text": "嘿嘿",
+      "gold": "general_greet",
+      "predicted": "general_joke"
+    },
+    {
+      "id": "2464",
+      "text": "olly 关灯",
+      "gold": "iot_hue_lightoff",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "11596",
+      "text": "北京市附近有狗展吗",
+      "gold": "recommendation_events",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "5667",
+      "text": "点击开始然后选择设置",
+      "gold": "alarm_query",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "3704",
+      "text": "从兰州拉面点两个大份炒面加鸡肉",
+      "gold": "takeaway_order",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "2120",
+      "text": "把灯调成蓝色",
+      "gold": "iot_hue_lightchange",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "11615",
+      "text": "环球影院正在上映什么电影",
+      "gold": "recommendation_movies",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "4497",
+      "text": "静音设置",
+      "gold": "audio_volume_mute",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "10605",
+      "text": "清单上有多少食品",
+      "gold": "lists_query",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "8622",
+      "text": "把下面的日期和时间添加到我的日历中",
+      "gold": "calendar_set",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "14865",
+      "text": "为我定义月球",
+      "gold": "qa_definition",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "12533",
+      "text": "地方",
+      "gold": "transport_query",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "15381",
+      "text": "给中国电信发推文告诉他们我的应用程序崩溃了",
+      "gold": "social_post",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "6009",
+      "text": "我什么时候可以去取我的中餐",
+      "gold": "takeaway_query",
+      "predicted": "general_greet"
+    },
+    {
+      "id": "9849",
+      "text": "有声读物播放十面埋伏",
+      "gold": "play_audiobook",
+      "predicted": "play_music"
+    },
+    {
+      "id": "12439",
+      "text": "从纽约市到波基普西怎么走",
+      "gold": "transport_query",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "5990",
+      "text": "准备我早晨的咖啡",
+      "gold": "iot_coffee",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "1416",
+      "text": "点一些外卖食物",
+      "gold": "takeaway_order",
+      "predicted": "recommendation_movies"
+    },
+    {
+      "id": "11851",
+      "text": "我附近有什么正上映的高分电影吗",
+      "gold": "recommendation_movies",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "2955",
+      "text": "我爱嘻哈音乐",
+      "gold": "music_likeness",
+      "predicted": "music_query"
+    },
+    {
+      "id": "9934",
+      "text": "我可以用西蓝花和鸡肉做什么",
+      "gold": "cooking_recipe",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "12045",
+      "text": "欧丽在上海我能到哪个酒馆喝两杯",
+      "gold": "recommendation_locations",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "2834",
+      "text": "请吸尘一小时",
+      "gold": "iot_cleaning",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "5516",
+      "text": "将这首音乐收进收藏夹",
+      "gold": "music_likeness",
+      "predicted": "lists_remove"
+    },
+    {
+      "id": "13367",
+      "text": "定义单词时调出词库并给出例句让单词意思更加清晰",
+      "gold": "general_quirky",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "6613",
+      "text": "烹饪",
+      "gold": "cooking_query",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "5726",
+      "text": "你能大声点吗",
+      "gold": "audio_volume_up",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "9432",
+      "text": "我的体育播客中有多少有我还没有听过的新剧集",
+      "gold": "play_radio",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "2863",
+      "text": "将灯的颜色更改为蓝色",
+      "gold": "iot_hue_lightchange",
+      "predicted": "general_quirky"
+    },
+    {
+      "id": "312",
+      "text": "这里太黑了",
+      "gold": "iot_hue_lighton",
+      "predicted": "alarm_set"
+    },
+    {
+      "id": "10303",
+      "text": "寻找游戏",
+      "gold": "play_game",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "4573",
+      "text": "请把这儿的灯打开",
+      "gold": "iot_hue_lightup",
+      "predicted": "__INVALID__"
+    },
+    {
+      "id": "16244",
+      "text": "鲍勃住在法国",
+      "gold": "email_querycontact",
+      "predicted": "general_greet"
+    },
+    {
+      "id": "12729",
+      "text": "有交通问题吗",
+      "gold": "transport_traffic",
+      "predicted": "__INVALID__"
+    }
+  ]
+}
